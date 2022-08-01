@@ -1,4 +1,6 @@
 pfDB["units"]["data"] = {
+    --Zul'Gurub
+    [11383]={["coords"]={[1]={50.7,16.7,33,37800},[2]={50.7,18.4,33,37800},},["lvl"]="60",["rnk"]="1",}, --High Priestess Hai'Watna
     --Yojamba Isle
     [14875]={["coords"]={[1]={40.1,70.2,33,1800},},["lvl"]="60",["rnk"]="1",}, --Molthor
     [14902]={["coords"]={[1]={40,72.4,33,1800},},["lvl"]="60",["rnk"]="1",}, --Jin'rokh the Breaker
