@@ -1,0 +1,9 @@
+## Interface: 11200
+## Title: |cff33ffccpf|cffffffffQuest|cffaaaaaa [Vanilla Plus]
+## Author: Hawaiisa
+## Notes: pfQuest modifications for Vanilla+
+## Version: 1.0
+## Dependencies: pfQuest
+
+# main
+pfQuest-vanillaplus.lua
