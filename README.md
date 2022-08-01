@@ -6,7 +6,7 @@ All honor goes to [Shagu](http://shagu.org/) for their amazing contributions to 
 
 ## Installation instructions
 1. Press the green "code" button -> Download ZIP
-2. Extract the pfQuest-vanillaplus from pfQuest-vanillaplus-master into your client's AddOns folder alongside pfQuest. The folder structure should look something like this:
+2. Extract the pfQuest-vanillaplus from pfQuest-vanillaplus-main.zip into your client's AddOns folder alongside pfQuest. The folder structure should look something like this:
 ```
 wowfolder\
 └── Interface\
