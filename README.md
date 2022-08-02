@@ -5,8 +5,9 @@ This is a quick and dirty way of modifying values of the pfQuest addon so it wor
 All honor goes to [Shagu](http://shagu.org/) for their amazing contributions to wow addons.
 
 ## Installation instructions
-1. Press the green "code" button -> Download ZIP
-2. Extract the pfQuest-vanillaplus from pfQuest-vanillaplus-main.zip into your client's AddOns folder alongside pfQuest. The folder structure should look something like this:
+1. Make sure you've got the official [pfQuest](https://github.com/shagu/pfQuest/) installed.
+2. Press the green "code" button -> Download ZIP
+3. Extract pfQuest-vanillaplus from inside pfQuest-vanillaplus-main.zip into your client's AddOns folder alongside pfQuest. The folder structure should look something like this:
 ```
 wowfolder\
 └── Interface\
