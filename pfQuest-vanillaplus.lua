@@ -14,4 +14,19 @@
     pfDB["units"]["data"][15070]={["coords"]={[1]={40.3,69.1,33,1800},},["lvl"]="60",["rnk"]="1",} --Vinchaxa
     pfDB["units"]["data"][15080]={["coords"]={[1]={41.2,69.4,33,1800},[2]={41.2,69.6,33,1800},},["lvl"]="60",["rnk"]="1",} --Servant of the Hand
 
-pfDatabase.Reload()
+--Items
+    pfDB["items"]["data"][50010]={["U"]={[2552]=100},} --Lost Arathor Manifest - Page 1
+    pfDB["items"]["data"][50011]={["U"]={[2562]=100},} --Lost Arathor Manifest - Page 2
+    pfDB["items"]["data"][50012]={["U"]={[2242]=100},} --Lost Arathor Manifest - Page 3
+
+--Quests
+    pfDB["quests"]["data"][30010]={["end"]={["U"]={2277},},["lvl"]=36,["min"]=36,["obj"]={["I"]={50010,50011,50012},},["start"]={["U"]={2277},},} --The Arathor Manifest
+--Locale enUS
+    --The Arathor Manifest
+    pfDB["quests"]["enUS"][30010]={
+        ["D"]="The Kingdom of Arathor is known best among commoners for its warriors. Yet those who remember the deeds of Thoradin in battle often forget that his strength was always tempered by wisdom.Thoradin sought out lore from every kingdom he conquered, and compiled it into a mighty library within the walls of Strom. Ah, to see it in its glory! Only a few tales remain, but it is said to have been lit by gilded lanterns suffused with the light itself, whose glow could wax and wane with the faith and the will of the library\'s visitors.Alas, those days are long gone.Nevertheless.",
+        ["O"]="Find the three pages from the Lost Arathor Manifest and return it to Loremaster Dibbs in Southshore, The different pages can be found on members of the Whiterbark Trolls and the Boulderfist Ogres localized in Arathi Highlands. The last piece is in the pockets of a Syndicate Spy within Alterac Mountains",
+        ["T"]="The Arathor Manifest",
+    }
+--Reload the added values
+    pfDatabase.Reload()
