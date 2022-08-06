@@ -32,9 +32,9 @@
 
 --Quests
     pfDB["quests"]["data"][30010]={["end"]={["U"]={2277},},["lvl"]=36,["min"]=36,["obj"]={["I"]={50010,50011,50012},},["race"]=77,["start"]={["U"]={2277},},} --The Arathor Manifest
-    pfDB["quests"]["data"][30020]={["end"]={["U"]={14903},},["lvl"]=60,["min"]=55, ["next"]=30021, ["start"]={["I"]={26177},},} --Broken Key - Part 1
-    pfDB["quests"]["data"][30021]={["end"]={["U"]={14875},},["lvl"]=60,["min"]=55,["next"]=30022,["pre"]={30020},["start"]={["U"]={14903},},} --Broken Key - Part 2
-    pfDB["quests"]["data"][30022]={["end"]={["U"]={14875},},["lvl"]=60,["min"]=55,["next"]=30023,["pre"]={30021},["obj"]={["I"]={12361,26178,26179,26180},},["start"]={["U"]={14903},},} --Broken Key - Part 3
+    pfDB["quests"]["data"][10088]={["end"]={["U"]={14903},},["lvl"]=60,["min"]=55, ["next"]=10089, ["start"]={["I"]={26177},},} --Broken Key - Part 1
+    pfDB["quests"]["data"][10089]={["end"]={["U"]={14875},},["lvl"]=60,["min"]=55,["next"]=10090,["pre"]={10088},["start"]={["U"]={14903},},} --Broken Key - Part 2
+    pfDB["quests"]["data"][10090]={["end"]={["U"]={14910},},["lvl"]=60,["min"]=55,["next"]=10091,["pre"]={10089},["obj"]={["I"]={12361,26178,26179,26180},},["start"]={["U"]={14875},},} --Broken Key - Part 3
 --Locale enUS
     --Quests
     --The Arathor Manifest
@@ -44,20 +44,20 @@
         ["T"]="The Arathor Manifest",
     }
     --Broken Key - part 1
-    pfDB["quests"]["enUS"][30020]={
-        ["D"]="You\'re taking it in you hand; a weird-looking damaged key, its bow was made of glass with golden lines but now is broken and some strange and sticky glowing liquid dripping from inside.%B%BA skilled master could restore it.%B%BYou\'re trying to remember any friendly troll arcanist to talk about it.",
-        ["O"]="That is a troll key, a broken troll key. It used to open something important.%B%BPerhaps you shouldl find a friendly troll who knows what it is and would like to help you.",
+    pfDB["quests"]["enUS"][10088]={
+        ["D"]="You\'re taking it in you hand; a weird-looking damaged key, its bow was made of glass with golden lines but now is broken and some strange and sticky glowing liquid dripping from inside.\n\nA skilled master could restore it.\n\nYou\'re trying to remember any friendly troll arcanist to talk about it.",
+        ["O"]="That is a troll key, a broken troll key. It used to open something important.\n\nPerhaps you shouldl find a friendly troll who knows what it is and would like to help you.",
         ["T"]="Broken Key",
     }
     --Broken Key --part 2
-    pfDB["quests"]["enUS"][30021]={
-        ["D"]="Al\'tabim takes a key and stares intently at it.%B%B-It\'s the key to Gul\'Gurub gates!Magical energies protext the entrance; for me, it\'s obvious that the key contained special mojo that permitted trespassing the capital\'s magic barriers.%B%BTake the remnants of the key to Molthor for further instructions of how to restore it.",
-        ["O"]="Take a key to Molthor, receive further instructions to restore it, open Zul\'Gurub gates, invade an ancient capital and stop the reign of the Blood God.%B%BSeems easy enough, isn't it?",
+    pfDB["quests"]["enUS"][10089]={
+        ["D"]="Al\'tabim takes a key and stares intently at it.\n\n- It\'s the key to Gul\'Gurub gates! Magical energies protect the entrance; for me, it\'s obvious that the key contained special mojo that permitted trespassing the capital\'s magic barriers.\n\nTake the remnants of the key to Molthor for further instructions of how to restore it.",
+        ["O"]="Take a key to Molthor, receive further instructions to restore it, open Zul\'Gurub gates, invade an ancient capital and stop the reign of the Blood God.\n\nSeems easy enough, isn't it?",
         ["T"]="Broken Key",
     }
     --Broken Key --part 3
-    pfDB["quests"]["enUS"][30022]={
-        ["D"]="Yes, we need that key to be restored, and Zandalars will assist you and your friends with such a critical mission.%B%BThe heart of the key is a specific mojo. The bad news is we don\'t know the exact type of mojo required - you should find some. Start with the plagues Mossflayer tribe, dire Deadwind ogres, who dwell near the Karazhan and hidden Winterax from snowy Alterac. Take their mojo away and deliver it to Exzhal. He will test samples, and if we\'re lucky enough, he will find the correct one quickly.%B%BI almost forgot: grab Blue Sapphire to restore a key bow.",
+    pfDB["quests"]["enUS"][10090]={
+        ["D"]="Yes, we need that key to be restored, and Zandalars will assist you and your friends with such a critical mission.\n\nThe heart of the key is a specific mojo. The bad news is we don\'t know the exact type of mojo required - you should find some. Start with the plagues Mossflayer tribe, dire Deadwind ogres, who dwell near the Karazhan and hidden Winterax from snowy Alterac. Take their mojo away and deliver it to Exzhal. He will test samples, and if we\'re lucky enough, he will find the correct one quickly.\n\nI almost forgot: grab Blue Sapphire to restore a key bow.",
         ["O"]="Find and deliver Blue Sapphire, Mossflayer Troll Mojo, Deadwind Ogre Mojo and Winterax Troll Mojo to Exzhal at Yojamba Isle",
         ["T"]="Broken Key"
     }
