@@ -1,6 +1,6 @@
 --Units
     --Alterac Mountains
-        pfDB["units"]["data"][22002]={["coords"]={[1]={37.8,70,36,37800},[2]={49.7,60.4,36,37800},[3]={38.8,47.4,36,37800},[4]={61.9,40.5,36,37800},[5]={44.6,34.4,36,37800},},["lvl"]="60",} --Winterax Envoy
+        pfDB["units"]["data"][49249]={["coords"]={[1]={37.8,70,36,37800},[2]={49.7,60.4,36,37800},[3]={38.8,47.4,36,37800},[4]={61.9,40.5,36,37800},[5]={44.6,34.4,36,37800},},["lvl"]="60",} --Winterax Envoy
     --Zul'Gurub
         pfDB["units"]["data"][11383]={["coords"]={[1]={50.7,16.7,33,37800},[2]={50.7,18.4,33,37800},[3]={51.4,16.7,33,37800},[4]={51.4,18.4,33,37800},[5]={46.8,16.1,33,37800},[6]={48.2,15.5,33,37800}},["lvl"]="60",["rnk"]="1",} --High Priestess Hai'Watna
     --Yojamba Isle
@@ -17,13 +17,14 @@
         pfDB["units"]["data"][15080]={["coords"]={[1]={41.2,69.4,33,1800},[2]={41.2,69.6,33,1800},},["lvl"]="60",["rnk"]="1",} --Servant of the Hand
 
 --Items
+    pfDB["items"]["data"][7146]={["O"]={},["O"]={[400000]=100,}} --Scarlet Key
     pfDB["items"]["data"][26177]={["U"]={[11383]=100},} --Broken Key
     pfDB["items"]["data"][26178]={["U"]={[8560]=30,[8561]=30,[8562]=30,},} --Mossflayer Troll Mojo
     pfDB["items"]["data"][26179]={["U"]={[7369]=30,[7371]=30,[7372]=30,[7379]=30,},} --Deadwind Ogre Mojo
-    pfDB["items"]["data"][26180]={["U"]={[22002]=100},} --Winterax Troll Mojo
+    pfDB["items"]["data"][26180]={["U"]={[49249]=100,},} --Winterax Troll Mojo
     pfDB["items"]["data"][26181]={["U"]={[8580]=100,},} --Hakkari Troll Mojo
     pfDB["items"]["data"][26182]={["U"]={[7267]=100,},} --Sandfury Troll Mojo
-    pfDB["items"]["data"][26183]={} --Vilebranch Troll Mojo
+    pfDB["items"]["data"][26183]={["U"]={[10802]=100,},} --Vilebranch Troll Mojo
     pfDB["items"]["data"][26184]={["U"]={[9237]=100,},} --Smolderthorn Troll Mojo
     pfDB["items"]["data"][26185]={} --Distilled Mojo Flask
     pfDB["items"]["data"][50010]={["U"]={[2552]=100},} --Lost Arathor Manifest - Page 1
@@ -31,13 +32,17 @@
     pfDB["items"]["data"][50012]={["U"]={[2242]=100},} --Lost Arathor Manifest - Page 3
 
 --Objects
+    pfDB["objects"]["data"][400000]={["coords"]={[1]={83.7,77.9,139,900,},},} --Scarlet Strongbox
     pfDB["objects"]["data"][180367]={["coords"]={[1]={41.8,69.5,33,900,},},} --Altar of Zanza
 --Quests
     pfDB["quests"]["data"][30010]={["end"]={["U"]={2277},},["lvl"]=36,["min"]=36,["obj"]={["I"]={50010,50011,50012},},["race"]=77,["start"]={["U"]={2277},},} --The Arathor Manifest
     pfDB["quests"]["data"][10088]={["end"]={["U"]={14903},},["lvl"]=60,["min"]=55, ["next"]=10089, ["start"]={["I"]={26177},},} --Broken Key - Part 1
     pfDB["quests"]["data"][10089]={["end"]={["U"]={14875},},["lvl"]=60,["min"]=55,["next"]=10090,["pre"]={10088},["start"]={["U"]={14903},},} --Broken Key - Part 2
     pfDB["quests"]["data"][10090]={["end"]={["U"]={14910},},["lvl"]=60,["min"]=55,["next"]=10091,["pre"]={10089},["obj"]={["I"]={12361,26178,26179,26180},},["start"]={["U"]={14875},},} --Broken Key - Part 3
+    pfDB["quests"]["data"][10091]={["end"]={["U"]={14910},},["lvl"]=60,["min"]=55,["pre"]={10090},["obj"]={["I"]={26181,26182,26183,26184},},["start"]={["U"]={14910},},} --Broken Key - Part 4
 --Locale enUS
+    --Objects
+    pfDB["objects"]["enUS"][400000]="Scarlet Strongbox"
     --Quests
     --The Arathor Manifest
     pfDB["quests"]["enUS"][30010]={
@@ -63,7 +68,14 @@
         ["O"]="Find and deliver Blue Sapphire, Mossflayer Troll Mojo, Deadwind Ogre Mojo and Winterax Troll Mojo to Exzhal at Yojamba Isle",
         ["T"]="Broken Key"
     }
+    --Broken Key - part 4
+    pfDB["quests"]["enUS"][10091]={
+        ["D"]="I need more mojo samples to test!\n\nThe next ones are harder to get, but we have no choice. Travel to Jintha\'Alor, Zul\'Farrak, Temple of Atal\'Hakkar and Blackrock Spire. Rip off Vilebranch Troll Mojo, Sandfury Troll Mojo, Hakkari Troll Mojo and Smolderthorn Troll Mojo.\n\nIf you survive, deliver the samples to me and pray to Zanza, mon! Otherwise, your friends should deliver the samples!\n\nDon\'t you have friends? Don\'t even try then!",
+        ["O"]="Find and deliver Hakkari Troll Mojo, Sandfury Troll Mojo, Vilebranch Troll Mojo and Smolderthorn Troll Mojo to Exzhal at Yojamba Isle.",
+        ["T"]="Broken Key"
+    }
     --Units
-    pfDB["units"]["enUS"][22002]="Winterax Envoy"
+    pfDB["units"]["enUS"][49249]="Winterax Envoy"
+    
 --Reload to register the added values
     pfDatabase.Reload()
