@@ -30,12 +30,16 @@
     pfDB["items"]["data"][50010]={["U"]={[2552]=100},} --Lost Arathor Manifest - Page 1
     pfDB["items"]["data"][50011]={["U"]={[2562]=100},} --Lost Arathor Manifest - Page 2
     pfDB["items"]["data"][50012]={["U"]={[2242]=100},} --Lost Arathor Manifest - Page 3
+    pfDB["items"]["data"][50014]={["O"]={[400001]=100},} --Alterac Cipher
 
 --Objects
     pfDB["objects"]["data"][400000]={["coords"]={[1]={83.7,77.9,139,900,},},} --Scarlet Strongbox
+    pfDB["objects"]["data"][400001]={["coords"]={[1]={48.6,57.6,36,0,},},} --Alterac Cipher
     pfDB["objects"]["data"][180367]={["coords"]={[1]={41.8,69.5,33,900,},},} --Altar of Zanza
 --Quests
-    pfDB["quests"]["data"][30010]={["end"]={["U"]={2277},},["lvl"]=36,["min"]=36,["obj"]={["I"]={50010,50011,50012},},["race"]=77,["start"]={["U"]={2277},},} --The Arathor Manifest
+    pfDB["quests"]["data"][30010]={["end"]={["U"]={2277},},["lvl"]=36,["min"]=36,["next"]=30011,["obj"]={["I"]={50010,50011,50012},},["race"]=77,["start"]={["U"]={2277},},} --The Arathor Manifest
+    pfDB["quests"]["data"][30011]={["end"]={["U"]={2277},},["lvl"]=36,["min"]=36,["next"]=30012,["pre"]={30011},["obj"]={["I"]={50014},},["race"]=77,["start"]={["U"]={2277},},} --The Alterac Cipher
+    pfDB["quests"]["data"][30012]={["end"]={["U"]={3979},},["lvl"]=36,["min"]=36,["pre"]={30011},["race"]=77,["start"]={["U"]={2277},},} --Ulda-What now?
     pfDB["quests"]["data"][10088]={["end"]={["U"]={14903},},["lvl"]=60,["min"]=55, ["next"]=10089, ["start"]={["I"]={26177},},} --Broken Key - Part 1
     pfDB["quests"]["data"][10089]={["end"]={["U"]={14875},},["lvl"]=60,["min"]=55,["next"]=10090,["pre"]={10088},["start"]={["U"]={14903},},} --Broken Key - Part 2
     pfDB["quests"]["data"][10090]={["end"]={["U"]={14910},},["lvl"]=60,["min"]=55,["next"]=10091,["pre"]={10089},["obj"]={["I"]={12361,26178,26179,26180},},["start"]={["U"]={14875},},} --Broken Key - Part 3
@@ -43,12 +47,25 @@
 --Locale enUS
     --Objects
     pfDB["objects"]["enUS"][400000]="Scarlet Strongbox"
+    pfDB["objects"]["enUS"][400001]="Alterac Cipher"
     --Quests
     --The Arathor Manifest
     pfDB["quests"]["enUS"][30010]={
         ["D"]="The Kingdom of Arathor is known best among commoners for its warriors. Yet those who remember the deeds of Thoradin in battle often forget that his strength was always tempered by wisdom.Thoradin sought out lore from every kingdom he conquered, and compiled it into a mighty library within the walls of Strom. Ah, to see it in its glory! Only a few tales remain, but it is said to have been lit by gilded lanterns suffused with the light itself, whose glow could wax and wane with the faith and the will of the library\'s visitors.Alas, those days are long gone.Nevertheless.",
         ["O"]="Find the three pages from the Lost Arathor Manifest and return it to Loremaster Dibbs in Southshore, The different pages can be found on members of the Whiterbark Trolls and the Boulderfist Ogres localized in Arathi Highlands. The last piece is in the pockets of a Syndicate Spy within Alterac Mountains",
         ["T"]="The Arathor Manifest",
+    }
+    --The Cipher of Alterac
+    pfDB["quests"]["enUS"][30011]={
+        ["D"]="Well! I have good news and bad news. The bad news is that this document is written in code. The good news is that if it\'s written in code, it\'s important enough to be worth deciphering!\n\nI\'ve worked enough with the old records of Strom to recognize the cipher. It\'s a variant on codes used by the Kingdom of Alterac to communicate with its scouts and watchmen to ensure that valuable intelligence was never captured. We\'ll need one of their old codebooks to decipher the manifest.I doFortunately, that should be a much simpler matter than finding the manifest in the first place! Search the old guard tower along the road leading to Alterac, not far past the snow line. With any luck, it may be undisturbed; ogres aren't widely known for their literary curiosity.",
+        ["O"]="Recover the Alterac Cipher and return it to Loremaster Dibbs in Southshore. Dibbs thinks you might be able to find it in one of the old Alterac watchtowers.",
+        ["T"]="The Cipher Of Alterac"
+    }
+    --Ulda-What now?
+    pfDB["quests"]["enUS"][30012]={
+        ["D"]="<Loremaster Dibbs spends a while hunched over, comparing symbols in the encrypted manifest to those in the codebook you retrieved.>\n\nThis is magnificent! There are dozens of works listed here, along with a brief summary of their contents and authorship. Many of these works are known to me either through extant copies or through their reputation as lost works, but one is not - Account of a Dark Iron Traveler.\n\nIt says here that a dwarf traveler from the south of what is now Loch Modan told stories of a grand repository of knowledge buried deep within the earth, in a place called Uldaman.  The name isn\'t familiar to me, but the location sounds like an area of the Badlands where I\'ve heard of some recent finds. You should speak to a colleague of mine, Professor Mae Paledust. She studies with the Explorer\'s League in Ironforge, and if you want expertise on things buried beneath the earth, you can\'t go wrong with a Dwarf academic!\n\nThank you again for all your help, and I d",
+        ["O"]="Speak to Librarian Mae Paledust in the Ironforge Hall of ExplorersSpeak to Librarian Mae Paledust in the Ironforge Hall of Explorers",
+        ["T"]="Ulda-What now?"
     }
     --Broken Key - part 1
     pfDB["quests"]["enUS"][10088]={
