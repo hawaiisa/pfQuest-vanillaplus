@@ -33,7 +33,7 @@
     pfDB["items"]["data"][50014]={["O"]={[400001]=100},} --Alterac Cipher
 
 --Objects
-    pfDB["objects"]["data"][400000]={["coords"]={[1]={83.7,77.9,139,900,},},} --Scarlet Strongbox
+    pfDB["objects"]["data"][400000]={["coords"]={[1]={83.7,77.9,139,900,},[2]={88.5,86.3,139,900},},} --Scarlet Strongbox
     pfDB["objects"]["data"][400001]={["coords"]={[1]={48.6,57.6,36,0,},},} --Alterac Cipher
     pfDB["objects"]["data"][180367]={["coords"]={[1]={41.8,69.5,33,900,},},} --Altar of Zanza
 --Quests
