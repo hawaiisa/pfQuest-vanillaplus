@@ -27,6 +27,7 @@
     pfDB["items"]["data"][26183]={["U"]={[10802]=100,},} --Vilebranch Troll Mojo
     pfDB["items"]["data"][26184]={["U"]={[9237]=100,},} --Smolderthorn Troll Mojo
     pfDB["items"]["data"][26185]={} --Distilled Mojo Flask
+    pfDB["items"]["data"][50003]={["O"]={[400002]=100},} --Brannol's Sewing Kit (Ogre's Bum Bag!?)
     pfDB["items"]["data"][50010]={["U"]={[2552]=100},} --Lost Arathor Manifest - Page 1
     pfDB["items"]["data"][50011]={["U"]={[2562]=100},} --Lost Arathor Manifest - Page 2
     pfDB["items"]["data"][50012]={["U"]={[2242]=100},} --Lost Arathor Manifest - Page 3
@@ -35,8 +36,10 @@
 --Objects
     pfDB["objects"]["data"][400000]={["coords"]={[1]={83.7,77.9,139,900,},[2]={88.5,86.3,139,900},},} --Scarlet Strongbox
     pfDB["objects"]["data"][400001]={["coords"]={[1]={48.6,57.6,36,0,},},} --Alterac Cipher
+    pfDB["objects"]["data"][400002]={["coords"]={[1]={44.3,26.2,141,0,},},} --Brannol's Sewing Kit
     pfDB["objects"]["data"][180367]={["coords"]={[1]={41.8,69.5,33,900,},},} --Altar of Zanza
 --Quests
+    pfDB["quests"]["data"][30007]={["end"]={["U"]={3611},},["lvl"]=10,["min"]=9,["obj"]={["I"]={50003}},["race"]=77,["start"]={["U"]={3611},},} --Brannol's Sewing Kit
     pfDB["quests"]["data"][30010]={["end"]={["U"]={2277},},["lvl"]=36,["min"]=36,["next"]=30011,["obj"]={["I"]={50010,50011,50012},},["race"]=77,["start"]={["U"]={2277},},} --The Arathor Manifest
     pfDB["quests"]["data"][30011]={["end"]={["U"]={2277},},["lvl"]=36,["min"]=36,["next"]=30012,["pre"]={30011},["obj"]={["I"]={50014},},["race"]=77,["start"]={["U"]={2277},},} --The Alterac Cipher
     pfDB["quests"]["data"][30012]={["end"]={["U"]={3979},},["lvl"]=36,["min"]=36,["pre"]={30011},["race"]=77,["start"]={["U"]={2277},},} --Ulda-What now?
@@ -48,7 +51,14 @@
     --Objects
     pfDB["objects"]["enUS"][400000]="Scarlet Strongbox"
     pfDB["objects"]["enUS"][400001]="Alterac Cipher"
+    pfDB["objects"]["enUS"][400002]="Brannol\'s Sewing Kit"
     --Quests
+    --Brannol's Sewing Kit
+    pfDB["quests"]["enUS"][30007]={
+        ["D"]="Have you ever stood at the edge of Teldrassil and looked out over the Veiled Sea? It\'s a magnificent sight, $n - you should try it sometime!$b$bI used to take my sewing kit to the waterfalls near Wellspring Lake, right as they pour over the side of the trunk, to do my work in peace and serenity. But last time I was there, I was attacked by a group of maddened timberlings and driven off without my kit!$b$bThose tools have been with me a long time, and I can\'t bear to think of them tumbling over the side and into the sea and being lost forever. Would you recover them for me, please?",
+        ["O"]="Recover Brannol\'s Sewing Kit and return it to him in Dolanaar.",
+        ["T"]="Brannol\'s Sewing Kit",
+    }
     --The Arathor Manifest
     pfDB["quests"]["enUS"][30010]={
         ["D"]="The Kingdom of Arathor is known best among commoners for its warriors. Yet those who remember the deeds of Thoradin in battle often forget that his strength was always tempered by wisdom.Thoradin sought out lore from every kingdom he conquered, and compiled it into a mighty library within the walls of Strom. Ah, to see it in its glory! Only a few tales remain, but it is said to have been lit by gilded lanterns suffused with the light itself, whose glow could wax and wane with the faith and the will of the library\'s visitors.Alas, those days are long gone.Nevertheless.",
@@ -57,37 +67,37 @@
     }
     --The Cipher of Alterac
     pfDB["quests"]["enUS"][30011]={
-        ["D"]="Well! I have good news and bad news. The bad news is that this document is written in code. The good news is that if it\'s written in code, it\'s important enough to be worth deciphering!\n\nI\'ve worked enough with the old records of Strom to recognize the cipher. It\'s a variant on codes used by the Kingdom of Alterac to communicate with its scouts and watchmen to ensure that valuable intelligence was never captured. We\'ll need one of their old codebooks to decipher the manifest.I doFortunately, that should be a much simpler matter than finding the manifest in the first place! Search the old guard tower along the road leading to Alterac, not far past the snow line. With any luck, it may be undisturbed; ogres aren't widely known for their literary curiosity.",
+        ["D"]="Well! I have good news and bad news. The bad news is that this document is written in code. The good news is that if it\'s written in code, it\'s important enough to be worth deciphering!$b$bI\'ve worked enough with the old records of Strom to recognize the cipher. It\'s a variant on codes used by the Kingdom of Alterac to communicate with its scouts and watchmen to ensure that valuable intelligence was never captured. We\'ll need one of their old codebooks to decipher the manifest.I doFortunately, that should be a much simpler matter than finding the manifest in the first place! Search the old guard tower along the road leading to Alterac, not far past the snow line. With any luck, it may be undisturbed; ogres aren't widely known for their literary curiosity.",
         ["O"]="Recover the Alterac Cipher and return it to Loremaster Dibbs in Southshore. Dibbs thinks you might be able to find it in one of the old Alterac watchtowers.",
         ["T"]="The Cipher Of Alterac"
     }
     --Ulda-What now?
     pfDB["quests"]["enUS"][30012]={
-        ["D"]="<Loremaster Dibbs spends a while hunched over, comparing symbols in the encrypted manifest to those in the codebook you retrieved.>\n\nThis is magnificent! There are dozens of works listed here, along with a brief summary of their contents and authorship. Many of these works are known to me either through extant copies or through their reputation as lost works, but one is not - Account of a Dark Iron Traveler.\n\nIt says here that a dwarf traveler from the south of what is now Loch Modan told stories of a grand repository of knowledge buried deep within the earth, in a place called Uldaman.  The name isn\'t familiar to me, but the location sounds like an area of the Badlands where I\'ve heard of some recent finds. You should speak to a colleague of mine, Professor Mae Paledust. She studies with the Explorer\'s League in Ironforge, and if you want expertise on things buried beneath the earth, you can\'t go wrong with a Dwarf academic!\n\nThank you again for all your help, and I d",
+        ["D"]="<Loremaster Dibbs spends a while hunched over, comparing symbols in the encrypted manifest to those in the codebook you retrieved.>$b$bThis is magnificent! There are dozens of works listed here, along with a brief summary of their contents and authorship. Many of these works are known to me either through extant copies or through their reputation as lost works, but one is not - Account of a Dark Iron Traveler.$b$bIt says here that a dwarf traveler from the south of what is now Loch Modan told stories of a grand repository of knowledge buried deep within the earth, in a place called Uldaman.  The name isn\'t familiar to me, but the location sounds like an area of the Badlands where I\'ve heard of some recent finds. You should speak to a colleague of mine, Professor Mae Paledust. She studies with the Explorer\'s League in Ironforge, and if you want expertise on things buried beneath the earth, you can\'t go wrong with a Dwarf academic!$b$bThank you again for all your help, and I d",
         ["O"]="Speak to Librarian Mae Paledust in the Ironforge Hall of ExplorersSpeak to Librarian Mae Paledust in the Ironforge Hall of Explorers",
         ["T"]="Ulda-What now?"
     }
     --Broken Key - part 1
     pfDB["quests"]["enUS"][10088]={
-        ["D"]="You\'re taking it in you hand; a weird-looking damaged key, its bow was made of glass with golden lines but now is broken and some strange and sticky glowing liquid dripping from inside.\n\nA skilled master could restore it.\n\nYou\'re trying to remember any friendly troll arcanist to talk about it.",
-        ["O"]="That is a troll key, a broken troll key. It used to open something important.\n\nPerhaps you shouldl find a friendly troll who knows what it is and would like to help you.",
+        ["D"]="You\'re taking it in you hand; a weird-looking damaged key, its bow was made of glass with golden lines but now is broken and some strange and sticky glowing liquid dripping from inside.$b$bA skilled master could restore it.$b$bYou\'re trying to remember any friendly troll arcanist to talk about it.",
+        ["O"]="That is a troll key, a broken troll key. It used to open something important.$b$bPerhaps you shouldl find a friendly troll who knows what it is and would like to help you.",
         ["T"]="Broken Key",
     }
     --Broken Key --part 2
     pfDB["quests"]["enUS"][10089]={
-        ["D"]="Al\'tabim takes a key and stares intently at it.\n\n- It\'s the key to Gul\'Gurub gates! Magical energies protect the entrance; for me, it\'s obvious that the key contained special mojo that permitted trespassing the capital\'s magic barriers.\n\nTake the remnants of the key to Molthor for further instructions of how to restore it.",
-        ["O"]="Take a key to Molthor, receive further instructions to restore it, open Zul\'Gurub gates, invade an ancient capital and stop the reign of the Blood God.\n\nSeems easy enough, isn't it?",
+        ["D"]="Al\'tabim takes a key and stares intently at it.$b$b- It\'s the key to Gul\'Gurub gates! Magical energies protect the entrance; for me, it\'s obvious that the key contained special mojo that permitted trespassing the capital\'s magic barriers.$b$bTake the remnants of the key to Molthor for further instructions of how to restore it.",
+        ["O"]="Take a key to Molthor, receive further instructions to restore it, open Zul\'Gurub gates, invade an ancient capital and stop the reign of the Blood God.$b$bSeems easy enough, isn't it?",
         ["T"]="Broken Key",
     }
     --Broken Key --part 3
     pfDB["quests"]["enUS"][10090]={
-        ["D"]="Yes, we need that key to be restored, and Zandalars will assist you and your friends with such a critical mission.\n\nThe heart of the key is a specific mojo. The bad news is we don\'t know the exact type of mojo required - you should find some. Start with the plagues Mossflayer tribe, dire Deadwind ogres, who dwell near the Karazhan and hidden Winterax from snowy Alterac. Take their mojo away and deliver it to Exzhal. He will test samples, and if we\'re lucky enough, he will find the correct one quickly.\n\nI almost forgot: grab Blue Sapphire to restore a key bow.",
+        ["D"]="Yes, we need that key to be restored, and Zandalars will assist you and your friends with such a critical mission.$b$bThe heart of the key is a specific mojo. The bad news is we don\'t know the exact type of mojo required - you should find some. Start with the plagues Mossflayer tribe, dire Deadwind ogres, who dwell near the Karazhan and hidden Winterax from snowy Alterac. Take their mojo away and deliver it to Exzhal. He will test samples, and if we\'re lucky enough, he will find the correct one quickly.$b$bI almost forgot: grab Blue Sapphire to restore a key bow.",
         ["O"]="Find and deliver Blue Sapphire, Mossflayer Troll Mojo, Deadwind Ogre Mojo and Winterax Troll Mojo to Exzhal at Yojamba Isle",
         ["T"]="Broken Key"
     }
     --Broken Key - part 4
     pfDB["quests"]["enUS"][10091]={
-        ["D"]="I need more mojo samples to test!\n\nThe next ones are harder to get, but we have no choice. Travel to Jintha\'Alor, Zul\'Farrak, Temple of Atal\'Hakkar and Blackrock Spire. Rip off Vilebranch Troll Mojo, Sandfury Troll Mojo, Hakkari Troll Mojo and Smolderthorn Troll Mojo.\n\nIf you survive, deliver the samples to me and pray to Zanza, mon! Otherwise, your friends should deliver the samples!\n\nDon\'t you have friends? Don\'t even try then!",
+        ["D"]="I need more mojo samples to test!$b$bThe next ones are harder to get, but we have no choice. Travel to Jintha\'Alor, Zul\'Farrak, Temple of Atal\'Hakkar and Blackrock Spire. Rip off Vilebranch Troll Mojo, Sandfury Troll Mojo, Hakkari Troll Mojo and Smolderthorn Troll Mojo.$b$bIf you survive, deliver the samples to me and pray to Zanza, mon! Otherwise, your friends should deliver the samples!$b$bDon\'t you have friends? Don\'t even try then!",
         ["O"]="Find and deliver Hakkari Troll Mojo, Sandfury Troll Mojo, Vilebranch Troll Mojo and Smolderthorn Troll Mojo to Exzhal at Yojamba Isle.",
         ["T"]="Broken Key"
     }
