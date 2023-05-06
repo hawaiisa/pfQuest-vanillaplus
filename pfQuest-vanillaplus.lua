@@ -17,7 +17,7 @@
         pfDB["units"]["data"][15080]={["coords"]={[1]={41.2,69.4,33,1800},[2]={41.2,69.6,33,1800},},["lvl"]="60",["rnk"]="1",} --Servant of the Hand
 
 --Items
-    pfDB["items"]["data"][7146]={["O"]={},["O"]={[400000]=100,}} --Scarlet Key
+    pfDB["items"]["data"][7146]={["O"]={},["O"]={[103821]=100,}} --Scarlet Key
     pfDB["items"]["data"][26177]={["U"]={[11383]=100},} --Broken Key
     pfDB["items"]["data"][26178]={["U"]={[8560]=30,[8561]=30,[8562]=30,},} --Mossflayer Troll Mojo
     pfDB["items"]["data"][26179]={["U"]={[7369]=30,[7371]=30,[7372]=30,[7379]=30,},} --Deadwind Ogre Mojo
@@ -27,16 +27,16 @@
     pfDB["items"]["data"][26183]={["U"]={[10802]=100,},} --Vilebranch Troll Mojo
     pfDB["items"]["data"][26184]={["U"]={[9237]=100,},} --Smolderthorn Troll Mojo
     pfDB["items"]["data"][26185]={} --Distilled Mojo Flask
-    pfDB["items"]["data"][50003]={["O"]={[400002]=100},} --Brannol's Sewing Kit (Ogre's Bum Bag!?)
+    pfDB["items"]["data"][50003]={["O"]={[1000000]=100},} --Brannol's Sewing Kit (Ogre's Bum Bag!?)
     pfDB["items"]["data"][50010]={["U"]={[2552]=100},} --Lost Arathor Manifest - Page 1
     pfDB["items"]["data"][50011]={["U"]={[2562]=100},} --Lost Arathor Manifest - Page 2
     pfDB["items"]["data"][50012]={["U"]={[2242]=100},} --Lost Arathor Manifest - Page 3
-    pfDB["items"]["data"][50014]={["O"]={[400001]=100},} --Alterac Cipher
+    pfDB["items"]["data"][50014]={["O"]={[50010]=100},} --Alterac Cipher
 
 --Objects
-    pfDB["objects"]["data"][400000]={["coords"]={[1]={83.7,77.9,139,900,},[2]={88.5,86.3,139,900},},} --Scarlet Strongbox
-    pfDB["objects"]["data"][400001]={["coords"]={[1]={48.6,57.6,36,0,},},} --Alterac Cipher
-    pfDB["objects"]["data"][400002]={["coords"]={[1]={44.3,26.2,141,0,},},} --Brannol's Sewing Kit
+    pfDB["objects"]["data"][103821]={["coords"]={[1]={83.7,77.9,139,900,},[2]={88.5,86.3,139,900},[3]={41.9,14.3,28,900},},} --Scarlet Strongbox
+    pfDB["objects"]["data"][50010]={["coords"]={[1]={48.6,57.6,36,0,},},} --Alterac Cipher
+    pfDB["objects"]["data"][1000000]={["coords"]={[1]={44.3,26.2,141,0,},},} --Brannol's Sewing Kit
     pfDB["objects"]["data"][180367]={["coords"]={[1]={41.8,69.5,33,900,},},} --Altar of Zanza
 --Quests
     pfDB["quests"]["data"][30007]={["end"]={["U"]={3611},},["lvl"]=10,["min"]=9,["obj"]={["I"]={50003}},["race"]=77,["start"]={["U"]={3611},},} --Brannol's Sewing Kit
@@ -47,11 +47,13 @@
     pfDB["quests"]["data"][10089]={["end"]={["U"]={14875},},["lvl"]=60,["min"]=55,["next"]=10090,["pre"]={10088},["start"]={["U"]={14903},},} --Broken Key - Part 2
     pfDB["quests"]["data"][10090]={["end"]={["U"]={14910},},["lvl"]=60,["min"]=55,["next"]=10091,["pre"]={10089},["obj"]={["I"]={12361,26178,26179,26180},},["start"]={["U"]={14875},},} --Broken Key - Part 3
     pfDB["quests"]["data"][10091]={["end"]={["U"]={14910},},["lvl"]=60,["min"]=55,["pre"]={10090},["obj"]={["I"]={26181,26182,26183,26184},},["start"]={["U"]={14910},},} --Broken Key - Part 4
+--Meta
+    pfDB["meta"]["chests"][-103821] = 0 --Scarlet Strongbox
 --Locale enUS
     --Objects
-    pfDB["objects"]["enUS"][400000]="Scarlet Strongbox"
-    pfDB["objects"]["enUS"][400001]="Alterac Cipher"
-    pfDB["objects"]["enUS"][400002]="Brannol\'s Sewing Kit"
+    pfDB["objects"]["enUS"][50010]="Alterac Cipher"
+    pfDB["objects"]["enUS"][103821]="Scarlet Strongbox"
+    pfDB["objects"]["enUS"][1000000]="Brannol\'s Sewing Kit"
     --Quests
     --Brannol's Sewing Kit
     pfDB["quests"]["enUS"][30007]={
@@ -104,5 +106,5 @@
     --Units
     pfDB["units"]["enUS"][49249]="Winterax Envoy"
     
---Reload to register the added values
+--Reload to register the new values
     pfDatabase.Reload()
