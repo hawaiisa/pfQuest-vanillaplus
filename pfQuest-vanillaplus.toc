@@ -2,7 +2,7 @@
 ## Title: |cff33ffccpf|cffffffffQuest|cffaaaaaa [Vanilla Plus]
 ## Author: Hawaiisa
 ## Notes: pfQuest modifications for Vanilla+
-## Version: 1.10
+## Version: 1.11
 ## Dependencies: pfQuest
 
 # main

@@ -1,6 +1,8 @@
 --Units
     --Alterac Mountains
         pfDB["units"]["data"][49249]={["coords"]={[1]={37.8,70,36,37800},[2]={49.7,60.4,36,37800},[3]={38.8,47.4,36,37800},[4]={61.9,40.5,36,37800},[5]={44.6,34.4,36,37800},},["lvl"]="60",} --Winterax Envoy
+    --Desolace
+        pfDB["units"]["data"][20675]={["coords"]={[1]={48.9,66.2,405,300},},["lvl"]="39",} --Spirit of Palkeote
     --Zul'Gurub
         pfDB["units"]["data"][11383]={["coords"]={[1]={50.7,16.7,33,37800},[2]={50.7,18.4,33,37800},[3]={51.4,16.7,33,37800},[4]={51.4,18.4,33,37800},[5]={46.8,16.1,33,37800},[6]={48.2,15.5,33,37800}},["lvl"]="60",["rnk"]="1",} --High Priestess Hai'Watna
     --Yojamba Isle
@@ -15,7 +17,8 @@
         pfDB["units"]["data"][14921]={["coords"]={[1]={40,67.9,33,1800},},["lvl"]="63",["rnk"]="1",} --Rin'wosho the Trader
         pfDB["units"]["data"][15070]={["coords"]={[1]={40.3,69.1,33,1800},},["lvl"]="60",["rnk"]="1",} --Vinchaxa
         pfDB["units"]["data"][15080]={["coords"]={[1]={41.2,69.4,33,1800},[2]={41.2,69.6,33,1800},},["lvl"]="60",["rnk"]="1",} --Servant of the Hand
-
+    --Donation Shop
+        pfDB["units"]["data"][90000]={["coords"]={[1]={54.0,59,7,1519,1800},[2]={55.0,48.5,1637,1800},},["lvl"]="30",["fac"]="AH",} -- Landro Longshot (Donation Shop)
 --Items
     pfDB["items"]["data"][7146]={["O"]={},["O"]={[103821]=100,}} --Scarlet Key
     pfDB["items"]["data"][26177]={["U"]={[11383]=100},} --Broken Key
@@ -27,11 +30,12 @@
     pfDB["items"]["data"][26183]={["U"]={[10802]=100,},} --Vilebranch Troll Mojo
     pfDB["items"]["data"][26184]={["U"]={[9237]=100,},} --Smolderthorn Troll Mojo
     pfDB["items"]["data"][26185]={} --Distilled Mojo Flask
-    pfDB["items"]["data"][50003]={["O"]={[1000000]=100},} --Brannol's Sewing Kit (Ogre's Bum Bag!?)
-    pfDB["items"]["data"][50010]={["U"]={[2552]=100},} --Lost Arathor Manifest - Page 1
-    pfDB["items"]["data"][50011]={["U"]={[2562]=100},} --Lost Arathor Manifest - Page 2
-    pfDB["items"]["data"][50012]={["U"]={[2242]=100},} --Lost Arathor Manifest - Page 3
-    pfDB["items"]["data"][50014]={["O"]={[50010]=100},} --Alterac Cipher
+    pfDB["items"]["data"][50001]={["U"]={[524]=80,},} --Rockhide Boar Meat
+    pfDB["items"]["data"][50003]={["O"]={[1000000]=100,},} --Brannol's Sewing Kit (Ogre's Bum Bag!?)
+    pfDB["items"]["data"][50010]={["U"]={[2552]=100,},} --Lost Arathor Manifest - Page 1
+    pfDB["items"]["data"][50011]={["U"]={[2562]=100,},} --Lost Arathor Manifest - Page 2
+    pfDB["items"]["data"][50012]={["U"]={[2242]=100,},} --Lost Arathor Manifest - Page 3
+    pfDB["items"]["data"][50014]={["O"]={[50010]=100,},} --Alterac Cipher
 
 --Objects
     pfDB["objects"]["data"][103821]={["coords"]={[1]={83.7,77.9,139,900,},[2]={88.5,86.3,139,900},[3]={41.9,14.3,28,900},},} --Scarlet Strongbox
@@ -39,7 +43,13 @@
     pfDB["objects"]["data"][1000000]={["coords"]={[1]={44.3,26.2,141,0,},},} --Brannol's Sewing Kit
     pfDB["objects"]["data"][180367]={["coords"]={[1]={41.8,69.5,33,900,},},} --Altar of Zanza
 --Quests
-    pfDB["quests"]["data"][30007]={["end"]={["U"]={3611},},["lvl"]=10,["min"]=9,["obj"]={["I"]={50003}},["race"]=77,["start"]={["U"]={3611},},} --Brannol's Sewing Kit
+    pfDB["quests"]["data"][30000]={["end"]={["U"]={13698},},["lvl"]=39,["min"]=35,["obj"]={["U"]={20675},},["race"]=77,["start"]={["U"]={13698},},} --The Lingering Mother
+    pfDB["quests"]["data"][30002]={["end"]={["U"]={2993},},["lvl"]=11,["min"]=10,["obj"]={["U"]={2973, 2974},},["start"]={["U"]={2993},},} --Kodo Hunt
+    pfDB["quests"]["data"][30003]={["end"]={["U"]={6787},},["lvl"]=7,["min"]=5,["obj"]={["U"]={3126},},["start"]={["U"]={6787},},} --No More-pid!
+    pfDB["quests"]["data"][30004]={["end"]={["U"]={2131},},["lvl"]=6,["min"]=5,["obj"]={["I"]={1251},},["start"]={["U"]={2131},},} --Don't Lose (Part Of) Your Head
+    pfDB["quests"]["data"][30005]={["end"]={["U"]={1103},},["lvl"]=6,["min"]=5,["obj"]={["I"]={50001},},["race"]=77,["start"]={["U"]={927},},} --Duty of the Light
+    pfDB["quests"]["data"][30006]={["end"]={["U"]={6031},},["lvl"]=6,["min"]=5,["obj"]={["I"]={50002},},["race"]=77,["start"]={["U"]={6119},},} --A Change of Heart
+    pfDB["quests"]["data"][30007]={["end"]={["U"]={3611},},["lvl"]=10,["min"]=9,["obj"]={["I"]={50003},},["race"]=77,["start"]={["U"]={3611},},} --Brannol's Sewing Kit
     pfDB["quests"]["data"][30010]={["end"]={["U"]={2277},},["lvl"]=36,["min"]=36,["next"]=30011,["obj"]={["I"]={50010,50011,50012},},["race"]=77,["start"]={["U"]={2277},},} --The Arathor Manifest
     pfDB["quests"]["data"][30011]={["end"]={["U"]={2277},},["lvl"]=36,["min"]=36,["next"]=30012,["pre"]={30011},["obj"]={["I"]={50014},},["race"]=77,["start"]={["U"]={2277},},} --The Alterac Cipher
     pfDB["quests"]["data"][30012]={["end"]={["U"]={3979},},["lvl"]=36,["min"]=36,["pre"]={30011},["race"]=77,["start"]={["U"]={2277},},} --Ulda-What now?
@@ -48,13 +58,49 @@
     pfDB["quests"]["data"][10090]={["end"]={["U"]={14910},},["lvl"]=60,["min"]=55,["next"]=10091,["pre"]={10089},["obj"]={["I"]={12361,26178,26179,26180},},["start"]={["U"]={14875},},} --Broken Key - Part 3
     pfDB["quests"]["data"][10091]={["end"]={["U"]={14910},},["lvl"]=60,["min"]=55,["pre"]={10090},["obj"]={["I"]={26181,26182,26183,26184},},["start"]={["U"]={14910},},} --Broken Key - Part 4
 --Meta
-    pfDB["meta"]["chests"][-103821] = 0 --Scarlet Strongbox
+    pfDB["meta"]["chests"][-103821]=0 --Scarlet Strongbox
 --Locale enUS
     --Objects
     pfDB["objects"]["enUS"][50010]="Alterac Cipher"
     pfDB["objects"]["enUS"][103821]="Scarlet Strongbox"
     pfDB["objects"]["enUS"][1000000]="Brannol\'s Sewing Kit"
     --Quests
+    --The Lingering Mother
+    pfDB["quests"]["enUS"][30000]={
+        ["D"]="While my mission here is focused on the centaur, it is my duty as a Keeper to heal the world wherever it may suffer.$B$BSouthwest of here, between the kodo graveyard and the coastline, there is a spirit in this land that cries out in pain. She had no name in life, but the Tauren know her spirit as Palkeote - ? ?†? a€s??N™grey mother? ?†? a€s??Ns, in their tongue.$B$BPalkeote lost one of her sons in this land long ago, before the sundering of the world. Yet she would not leave his side. She remained here for many long years, as the trees grew and the world changed around her, until at last she too passed at the side of her beloved child.$B$BShe remains here as a restless spirit. The long years of her life and her dedication to her single task make her mighty, but she has long passed from the warmth of love for kin. You will need many allies to lay her to rest, hero, but that is what I ask you to do.",
+        ["O"]="Find and defeat the spirit of Palkeote.",
+        ["T"]="The Lingering Mother",
+    }
+    --Kodo Hunt
+    pfDB["quests"]["enUS"][30002]={
+        ["D"]="The kodo is the mightiest of the beasts of Mulgore, and therefore the greatest of its hunts. You are ready, young $C, to hunt them yourself.$B$BYou have probably already seen the kodo herds wandering Mulgore during your earlier travels. Find one of the herds, and challenge its matriarch and bull.$B$BKodos are not aggressive creatures, but they are fearsome when provoked ? ?†? a€s???‚Ns you will need all the skills you have learned to overcome their elders, $R.$B$BReturn to me when you have conquered them.",
+        ["O"]="Find a herd of kodo in the fields of Mulgore and defeat its Matriarch and Bull.",
+        ["T"]="Kodo Hunt",
+    }
+    --No More-pid!
+    pfDB["quests"]["enUS"][30003]={
+        ["D"]="Why in the name of Doomhammer did we have to settle in a desert?$B$BScorpids! Every time I leave Razor Hill, scorpids! In my tent, in my shoes, in my armor, scorpids! I can defeat them easily - I am no weakling - but every time they sting me I have to drink a healing potion or walk all the way back to town to find a healer. I\'m sick of it!$B$BYou seem like a study warrior. Will you go out and kill every scorpid you can find? Then stomp on their tails a little? It\'s your duty to the Horde to stomp on every tail!$B$BYou can find the scorpid all over northern Durotar... whether you want to or not.",
+        ["O"]="Kill 10 Armored Scorpid. Stomping on their tails is not required, but may make you feel better.",
+        ["T"]="No More-pid!",
+    }
+    --Don't Lose (Part Of) Your Head
+    pfDB["quests"]["enUS"][30004]={
+        ["D"]="Some people get all the luck!$B$B<Austil glares at Colman Farthing across the inn.>$B$B? ?†? a€s??N™Oh, I lost my family, the plague took my home from me.? ?†? a€s??Ns On and on and on he goes! We get it! The plague took all of our homes and all of our families. But some of us at least came out of it with a jaw intact!$B$B<Austil cracks a bone back into place.>$B$BIf you want to make yourself useful, bring me some bandages so I can hold what's left of me together!",
+        ["O"]="Bring 10 Linen Bandages to Austil de Mon, in the Gallows\' End Tavern in Brill.$B$BYou can make the bandages with First Aid skill og buy them from another player.",
+        ["T"]="Don\'t Lose (Part Of) Your Head",
+    }
+    --Duty of the Light
+    pfDB["quests"]["enUS"][30005]={
+        ["D"]="To the nobles of Stormwind, a Paladin is an elite soldier, whose glory comes from deeds on the battlefield. But we who follow the light know better. To the poor of the kingdom, we are often the only source of comfort and aid. It is these simple tasks of assistance and caring that separate a true Paladin from some fool with a cudgel.$B$BThere is a struggling family in the Eastvale Logging Camp that is in need of help to get through the year. I had hoped to help myself, but I cannot leave Goldshire, not with so many threats around us. If you would aid them in my stead, hunt the Rockhide Board found south of the road and bring their meat to the logging camp.",
+        ["O"]="Objectives: Bring 8 pieces of Rockhide Boar Meat to Eldrin in the Eastvale Logging Camp.",
+        ["T"]="Duty of the Light",
+    }
+    --A Change of Heart
+    pfDB["quests"]["enUS"][30006]={
+        ["D"]="Hey, $C, do you think I can ask you a favor?$B$BI I know I'm here with Grimrizz and all his dark magic, but all I ever really wanted to be was a blacksmith. I know, I know, most gnomes go for engineering, but ever since I first saw Ironforge I knew that\'s what I wanted to do. The heat of the forge, the clang of the hammers, the shine of a fine-smithed balde, that\'s the life for me!$B$BWill you take this to Tormus Deepforge for me? It\'s an application to join the smith\'s guild up in Ironforge. He\'s probably near the Great Forge there, since he works with all the new smithing trainees.",
+        ["O"]="Bring Tog\'s Letter to Tormus Deepforge at the Great Forge in Ironforge.",
+        ["T"]="A Change of Heart",
+    }
     --Brannol's Sewing Kit
     pfDB["quests"]["enUS"][30007]={
         ["D"]="Have you ever stood at the edge of Teldrassil and looked out over the Veiled Sea? It\'s a magnificent sight, $n - you should try it sometime!$b$bI used to take my sewing kit to the waterfalls near Wellspring Lake, right as they pour over the side of the trunk, to do my work in peace and serenity. But last time I was there, I was attacked by a group of maddened timberlings and driven off without my kit!$b$bThose tools have been with me a long time, and I can\'t bear to think of them tumbling over the side and into the sea and being lost forever. Would you recover them for me, please?",
@@ -104,7 +150,9 @@
         ["T"]="Broken Key"
     }
     --Units
+    pfDB["units"]["enUS"][20675]="Spirit of Palkeote"
     pfDB["units"]["enUS"][49249]="Winterax Envoy"
+    pfDB["units"]["enUS"][90000]="Landro Longshot (Donation Shop)"
     
 --Reload to register the new values
     pfDatabase.Reload()
