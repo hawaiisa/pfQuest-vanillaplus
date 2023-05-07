@@ -18,7 +18,7 @@
         pfDB["units"]["data"][15070]={["coords"]={[1]={40.3,69.1,33,1800},},["lvl"]="60",["rnk"]="1",} --Vinchaxa
         pfDB["units"]["data"][15080]={["coords"]={[1]={41.2,69.4,33,1800},[2]={41.2,69.6,33,1800},},["lvl"]="60",["rnk"]="1",} --Servant of the Hand
     --Donation Shop
-        pfDB["units"]["data"][90000]={["coords"]={[1]={54.0,59,7,1519,1800},[2]={55.0,48.5,1637,1800},},["lvl"]="30",["fac"]="AH",} -- Landro Longshot (Donation Shop)
+        pfDB["units"]["data"][25285]={["coords"]={[1]={54.0,59,7,1519,1800},[2]={55.0,48.5,1637,1800},},["lvl"]="30",["fac"]="AH",} -- Landro Longshot (Donation Shop)
 --Items
     pfDB["items"]["data"][7146]={["O"]={},["O"]={[103821]=100,}} --Scarlet Key
     pfDB["items"]["data"][26177]={["U"]={[11383]=100},} --Broken Key
@@ -151,8 +151,8 @@
     }
     --Units
     pfDB["units"]["enUS"][20675]="Spirit of Palkeote"
+    pfDB["units"]["enUS"][25285]="Landro Longshot (Donation Shop)"
     pfDB["units"]["enUS"][49249]="Winterax Envoy"
-    pfDB["units"]["enUS"][90000]="Landro Longshot (Donation Shop)"
     
 --Reload to register the new values
     pfDatabase.Reload()
