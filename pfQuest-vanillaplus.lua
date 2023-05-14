@@ -3,6 +3,8 @@
         pfDB["units"]["data"][49249]={["coords"]={[1]={37.8,70,36,37800},[2]={49.7,60.4,36,37800},[3]={38.8,47.4,36,37800},[4]={61.9,40.5,36,37800},[5]={44.6,34.4,36,37800},},["lvl"]="60",} --Winterax Envoy
     --Desolace
         pfDB["units"]["data"][20675]={["coords"]={[1]={48.9,66.2,405,300},},["lvl"]="39",} --Spirit of Palkeote
+    --Durotar
+        pfDB["units"]["data"][30806]={["coords"]={[1]={50.7,12.9,14,300},},["lvl"]="30",["fac"]="H",} --Otto Steelpoulpel
     --Zul'Gurub
         pfDB["units"]["data"][11383]={["coords"]={[1]={50.7,16.7,33,37800},[2]={50.7,18.4,33,37800},[3]={51.4,16.7,33,37800},[4]={51.4,18.4,33,37800},[5]={46.8,16.1,33,37800},[6]={48.2,15.5,33,37800}},["lvl"]="60",["rnk"]="1",} --High Priestess Hai'Watna
     --Yojamba Isle
@@ -38,12 +40,13 @@
     pfDB["items"]["data"][50014]={["O"]={[50010]=100,},} --Alterac Cipher
 
 --Objects
-    pfDB["objects"]["data"][103821]={["coords"]={[1]={83.7,77.9,139,900,},[2]={88.5,86.3,139,900},[3]={41.9,14.3,28,900},},} --Scarlet Strongbox
+    pfDB["objects"]["data"][103821]={["coords"]={[1]={83.7,77.9,139,900,},[2]={88.5,86.3,139,900},[3]={41.9,14.3,28,900},[4]={80.7,85.7,139,900},},} --Scarlet Strongbox
     pfDB["objects"]["data"][50010]={["coords"]={[1]={48.6,57.6,36,0,},},} --Alterac Cipher
     pfDB["objects"]["data"][1000000]={["coords"]={[1]={44.3,26.2,141,0,},},} --Brannol's Sewing Kit
     pfDB["objects"]["data"][180367]={["coords"]={[1]={41.8,69.5,33,900,},},} --Altar of Zanza
 --Quests
-    pfDB["quests"]["data"][30000]={["end"]={["U"]={13698},},["lvl"]=39,["min"]=35,["obj"]={["U"]={20675},},["race"]=77,["start"]={["U"]={13698},},} --The Lingering Mother
+    pfDB["quests"]["data"][30000]={["end"]={["U"]={13698},},["lvl"]=39,["min"]=37,["obj"]={["U"]={20675},},["race"]=77,["start"]={["U"]={13698},},} --The Lingering Mother
+    pfDB["quests"]["data"][30001]={["end"]={["U"]={8152},},["lvl"]=39,["min"]=37,["obj"]={["U"]={20675},},["start"]={["U"]={8152},},} --Palkeote
     pfDB["quests"]["data"][30002]={["end"]={["U"]={2993},},["lvl"]=11,["min"]=10,["obj"]={["U"]={2973, 2974},},["start"]={["U"]={2993},},} --Kodo Hunt
     pfDB["quests"]["data"][30003]={["end"]={["U"]={6787},},["lvl"]=7,["min"]=5,["obj"]={["U"]={3126},},["start"]={["U"]={6787},},} --No More-pid!
     pfDB["quests"]["data"][30004]={["end"]={["U"]={2131},},["lvl"]=6,["min"]=5,["obj"]={["I"]={1251},},["start"]={["U"]={2131},},} --Don't Lose (Part Of) Your Head
@@ -53,7 +56,7 @@
     pfDB["quests"]["data"][30010]={["end"]={["U"]={2277},},["lvl"]=36,["min"]=36,["next"]=30011,["obj"]={["I"]={50010,50011,50012},},["race"]=77,["start"]={["U"]={2277},},} --The Arathor Manifest
     pfDB["quests"]["data"][30011]={["end"]={["U"]={2277},},["lvl"]=36,["min"]=36,["next"]=30012,["pre"]={30011},["obj"]={["I"]={50014},},["race"]=77,["start"]={["U"]={2277},},} --The Alterac Cipher
     pfDB["quests"]["data"][30012]={["end"]={["U"]={3979},},["lvl"]=36,["min"]=36,["pre"]={30011},["race"]=77,["start"]={["U"]={2277},},} --Ulda-What now?
-    pfDB["quests"]["data"][10088]={["end"]={["U"]={14903},},["lvl"]=60,["min"]=55, ["next"]=10089, ["start"]={["I"]={26177},},} --Broken Key - Part 1
+    pfDB["quests"]["data"][10088]={["end"]={["U"]={14903},},["lvl"]=60,["min"]=55,["next"]=10089, ["start"]={["I"]={26177},},} --Broken Key - Part 1
     pfDB["quests"]["data"][10089]={["end"]={["U"]={14875},},["lvl"]=60,["min"]=55,["next"]=10090,["pre"]={10088},["start"]={["U"]={14903},},} --Broken Key - Part 2
     pfDB["quests"]["data"][10090]={["end"]={["U"]={14910},},["lvl"]=60,["min"]=55,["next"]=10091,["pre"]={10089},["obj"]={["I"]={12361,26178,26179,26180},},["start"]={["U"]={14875},},} --Broken Key - Part 3
     pfDB["quests"]["data"][10091]={["end"]={["U"]={14910},},["lvl"]=60,["min"]=55,["pre"]={10090},["obj"]={["I"]={26181,26182,26183,26184},},["start"]={["U"]={14910},},} --Broken Key - Part 4
@@ -70,6 +73,11 @@
         ["D"]="While my mission here is focused on the centaur, it is my duty as a Keeper to heal the world wherever it may suffer.$B$BSouthwest of here, between the kodo graveyard and the coastline, there is a spirit in this land that cries out in pain. She had no name in life, but the Tauren know her spirit as Palkeote - ? ?†? a€s??N™grey mother? ?†? a€s??Ns, in their tongue.$B$BPalkeote lost one of her sons in this land long ago, before the sundering of the world. Yet she would not leave his side. She remained here for many long years, as the trees grew and the world changed around her, until at last she too passed at the side of her beloved child.$B$BShe remains here as a restless spirit. The long years of her life and her dedication to her single task make her mighty, but she has long passed from the warmth of love for kin. You will need many allies to lay her to rest, hero, but that is what I ask you to do.",
         ["O"]="Find and defeat the spirit of Palkeote.",
         ["T"]="The Lingering Mother",
+    }
+    pfDB["quests"]["enUS"][30001] = {
+    ["D"] = "Do you know the legend of Palkeote, the grey mother? She is the spirit of an ancient kodo who walked this land in the distant past, in the days even before the sundering. This land was green then, and she roamed it for many years with her mate and her children. One day, one of her sons fell ill with a sickness that would not leave him. He fell further behind the pack with each passing day, until he finally collapsed northwest of here, near a river that has now gone dry. Palkeote stayed with her son, but she could do nothing to stop his passing. She would not leave even then. Her herd moved on and the seasons passed around her, but still she remained, until she herself passed away beside him. Her watch did not end even then, and she remains as a mighty spirit. The Earthmother pities the suffering of all life, and she pities the suffering of mothers most of all. Palkeote\'s vigil has made her strong, but it is time for her to rest. Muster your allies and end her long watch, $C.",
+    ["O"] = "Find and defeat the spirit of Palkeote.",
+    ["T"] = "Palkeote",
     }
     --Kodo Hunt
     pfDB["quests"]["enUS"][30002]={
@@ -152,7 +160,28 @@
     --Units
     pfDB["units"]["enUS"][20675]="Spirit of Palkeote"
     pfDB["units"]["enUS"][25285]="Landro Longshot (Donation Shop)"
+    pfDB["units"]["enUS"][30806]="Otto Steelpoulpel"
     pfDB["units"]["enUS"][49249]="Winterax Envoy"
     
---Reload to register the new values
+--Reload database to register the new values
     pfDatabase.Reload()
+--Fetch addon version
+local frame = CreateFrame("FRAME")
+frame:RegisterEvent("ADDON_LOADED")
+function pfQuest_vplus_versioncheck()
+    if arg1 == "pfQuest-vanillaplus" then        
+        pfQuest_vplus = pfQuest_vplus or {}
+        if not pfQuest_vplus then
+            DEFAULT_CHAT_FRAME:AddMessage("No variable saved")
+            pfQuest_vplus["prev_version"] = 0
+        end
+        pfQuest_vplus_currentversion = tonumber(GetAddOnMetadata("pfQuest-vanillaplus", "Version"))
+        if pfQuest_vplus["prev_version"] and pfQuest_vplus["prev_version"] < pfQuest_vplus_currentversion then
+            DEFAULT_CHAT_FRAME:AddMessage("|cff33ffccpf|cffffffffQuest|cffaaaaaa \[Vanilla Plus\]|cffffffff: New version discovered. It is recommended to reset the quest cache from the pfQuest settings.")
+            pfQuest_vplus["prev_version"] = pfQuest_vplus_currentversion
+        else
+            pfQuest_vplus["prev_version"] = pfQuest_vplus_currentversion
+        end
+    end
+end
+frame:SetScript("OnEvent",pfQuest_vplus_versioncheck)
