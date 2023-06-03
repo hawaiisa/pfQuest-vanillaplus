@@ -1,6 +1,8 @@
 --Units
     --Alterac Mountains
         pfDB["units"]["data"][49249]={["coords"]={[1]={37.8,70,36,37800},[2]={49.7,60.4,36,37800},[3]={38.8,47.4,36,37800},[4]={61.9,40.5,36,37800},[5]={44.6,34.4,36,37800},},["lvl"]="60",} --Winterax Envoy
+    --The Barrens
+        pfDB["units"]["data"][16540]={["coords"]={[1]={48.6,95.5,17,0},},["lvl"]="45",} --Brother Pablo
     --Desolace
         pfDB["units"]["data"][20675]={["coords"]={[1]={48.9,66.2,405,300},},["lvl"]="39",} --Spirit of Palkeote
     --Durotar
@@ -40,6 +42,7 @@
     pfDB["items"]["data"][50014]={["O"]={[50010]=100,},} --Alterac Cipher
 
 --Objects
+    pfDB["objects"]["data"][103664]={["coords"]={[1]={48.5,95.6,17,0,},},} --Rituals of Power
     pfDB["objects"]["data"][103821]={["coords"]={[1]={83.7,77.9,139,900,},[2]={88.5,86.3,139,900},[3]={41.9,14.3,28,900},[4]={80.7,85.7,139,900},},} --Scarlet Strongbox
     pfDB["objects"]["data"][50010]={["coords"]={[1]={48.6,57.6,36,0,},},} --Alterac Cipher
     pfDB["objects"]["data"][1000000]={["coords"]={[1]={44.3,26.2,141,0,},},} --Brannol's Sewing Kit
@@ -158,6 +161,7 @@
         ["T"]="Broken Key"
     }
     --Units
+    pfDB["units"]["enUS"][16540]="Brother Pablo"
     pfDB["units"]["enUS"][20675]="Spirit of Palkeote"
     pfDB["units"]["enUS"][25285]="Landro Longshot (Donation Shop)"
     pfDB["units"]["enUS"][30806]="Otto Steelpoulpel"
