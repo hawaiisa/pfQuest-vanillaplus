@@ -67,9 +67,15 @@
     --Chests
     pfDB["meta"]["chests"][-103821]=0 --Scarlet Strongbox
     --Taxis
-    pfDB["meta"]["flight"][10583]=nil --Removed Gryfe (Un'Goro)
-    pfDB["meta"]["flight"][13177]=nil --Removed Vahgruk (Burning Steppes)
-    pfDB["meta"]["flight"][14242]=nil --Removed Sulhasa (Silithus)
+    pfDB["meta"]["flight"][2299]=nil --Removed Borgus Stoutarm (Alliance - Burning Steppes)
+    pfDB["meta"]["flight"][2941]=nil --Removed Lanie Reed (Alliance - Searing Gorge)
+    pfDB["meta"]["flight"][3305]=nil --Removed Grisha (Horde - Searing Gorge)
+    pfDB["meta"]["flight"][10583]=nil --Removed Gryfe (Neutral - Un'Goro)
+    pfDB["meta"]["flight"][10897]=nil --Removed Sindrayl (Alliance - Moonglade)
+    pfDB["meta"]["flight"][12596]=nil --Removed Bibilfaz Featherwhistle (Alliance - Western Plaguelands)
+    pfDB["meta"]["flight"][12740]=nil --Removed Faustron (Horde - Moonglade)
+    pfDB["meta"]["flight"][13177]=nil --Removed Vahgruk (Horde - Burning Steppes)
+    pfDB["meta"]["flight"][14242]=nil --Removed Sulhasa (Horde - Silithus)
     pfDB["meta"]["flight"][30806]="H" --Otto Steelpoulpel
 --Locale enUS
     --Objects
