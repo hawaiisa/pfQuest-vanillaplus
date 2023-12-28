@@ -64,7 +64,13 @@
     pfDB["quests"]["data"][10090]={["end"]={["U"]={14910},},["lvl"]=60,["min"]=55,["next"]=10091,["pre"]={10089},["obj"]={["I"]={12361,26178,26179,26180},},["start"]={["U"]={14875},},} --Broken Key - Part 3
     pfDB["quests"]["data"][10091]={["end"]={["U"]={14910},},["lvl"]=60,["min"]=55,["pre"]={10090},["obj"]={["I"]={26181,26182,26183,26184},},["start"]={["U"]={14910},},} --Broken Key - Part 4
 --Meta
+    --Chests
     pfDB["meta"]["chests"][-103821]=0 --Scarlet Strongbox
+    --Taxis
+    pfDB["meta"]["flight"][10583]=nil --Removed Gryfe (Un'Goro)
+    pfDB["meta"]["flight"][13177]=nil --Removed Vahgruk (Burning Steppes)
+    pfDB["meta"]["flight"][14242]=nil --Removed Sulhasa (Silithus)
+    pfDB["meta"]["flight"][30806]="H" --Otto Steelpoulpel
 --Locale enUS
     --Objects
     pfDB["objects"]["enUS"][50010]="Alterac Cipher"
