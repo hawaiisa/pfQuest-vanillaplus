@@ -10,7 +10,7 @@
     --Zul'Gurub
         pfDB["units"]["data"][11383]={["coords"]={[1]={50.7,16.7,33,37800},[2]={50.7,18.4,33,37800},[3]={51.4,16.7,33,37800},[4]={51.4,18.4,33,37800},[5]={46.8,16.1,33,37800},[6]={48.2,15.5,33,37800}},["lvl"]="60",["rnk"]="1",} --High Priestess Hai'Watna
     --Yojamba Isle
-        pfDB["units"]["data"][14875]={["coords"]={[1]={40.1,70.2,33,1800},},["lvl"]="60",["rnk"] = "1",} --Molthor
+        pfDB["units"]["data"][14875]={["coords"]={[1]={40.1,70.2,33,1800},},["lvl"]="60",["rnk"]="1",} --Molthor
         pfDB["units"]["data"][14902]={["coords"]={[1]={40,72.4,33,1800},},["lvl"]="60",["rnk"]="1",} --Jin'rokh the Breaker
         pfDB["units"]["data"][14903]={["coords"]={[1]={39.8,67.8,33,1800},},["lvl"]="60",["rnk"]="1",} --Al'tabim the All-Seeing
         pfDB["units"]["data"][14904]={["coords"]={[1]={39.8,67.9,33,1800},},["lvl"]="60",["rnk"]="1",} --Maywiki of Zuldazar
@@ -22,7 +22,8 @@
         pfDB["units"]["data"][15070]={["coords"]={[1]={40.3,69.1,33,1800},},["lvl"]="60",["rnk"]="1",} --Vinchaxa
         pfDB["units"]["data"][15080]={["coords"]={[1]={41.2,69.4,33,1800},[2]={41.2,69.6,33,1800},},["lvl"]="60",["rnk"]="1",} --Servant of the Hand
     --Easter Event
-        pfDB["units"]["data"][23061]={["coords"]={[1]={51.8,29.9,12,1800},[2]={74.0,30.3,85,1800},[3]={59.3,23.2,14,1800},},["lvl"]="17",["FAC"]="AH",} --Thum Parr
+        pfDB["units"]["data"][22805]={["coords"]={[1]={47.5,19.6,85,180},},["lvl"]="17"}--"El Pollo Malo"
+        pfDB["units"]["data"][23061]={["coords"]={[1]={51.8,29.9,12,1800},[2]={74.6,30.9,85,1800},[3]={59.3,23.2,14,1800},},["lvl"]="17",["FAC"]="AH",} --Thum Parr
     --Donation Shop
         pfDB["units"]["data"][25285]={["coords"]={[1]={54.0,59,7,1519,1800},[2]={55.0,48.5,1637,1800},},["lvl"]="30",["fac"]="AH",} -- Landro Longshot (Donation Shop)
 --Items
@@ -41,14 +42,16 @@
     pfDB["items"]["data"][26186]={} --Mojo Key
     pfDB["items"]["data"][26188]={} --Karazhan Key
     pfDB["items"]["data"][50001]={["U"]={[524]=80,},} --Rockhide Boar Meat
-    pfDB["items"]["data"][50003]={["O"]={[1000000]=100,},} --Brannol's Sewing Kit (Ogre's Bum Bag!?)
+    pfDB["items"]["data"][50003]={["O"]={[1000000]=100,},} --Brannol's Sewing Kit
     pfDB["items"]["data"][50010]={["U"]={[2552]=100,},} --Lost Arathor Manifest - Page 1
     pfDB["items"]["data"][50011]={["U"]={[2562]=100,},} --Lost Arathor Manifest - Page 2
     pfDB["items"]["data"][50012]={["U"]={[2242]=100,},} --Lost Arathor Manifest - Page 3
     pfDB["items"]["data"][50014]={["O"]={[50010]=100,},} --Alterac Cipher
     pfDB["items"]["data"][50017]={["O"]={[50011]=100,},} --Dark Iron Artifact
-    pfDB["items"]["data"][83012]={["O"]={[113768] = 33.33,[113769] = 33.33,[113770] = 33.33,[113771] = 33.33,[113772] = 33.33,[113773] = 33.33,},} --Spirit Bean
-    pfDB["items"]["data"][83013]={["O"]={[113773] = 33.33,},} --Spirit Bean
+    pfDB["items"]["data"][83008]={["U"]={[22805]=100,},} --Huevo Podrido
+    pfDB["items"]["data"][83010]={} --Egg Sack
+    pfDB["items"]["data"][83012]={["O"]={[113768]=15,[113769]=15,[113770]=15,[113771]=15,[113772]=15,[113773]=30,},} --Spirit Bean
+    pfDB["items"]["data"][83013]={["O"]={[113768]=3,[113769]=3,[113770]=3,[113771]=3,[113772]=3,[113773]=5,}, ["U"]={[22805]=33.33}} --Rune of Thumping
 
 --Objects
     pfDB["objects"]["data"][103664]={["coords"]={[1]={48.5,95.6,17,0,},},} --Rituals of Power
@@ -57,7 +60,12 @@
     pfDB["objects"]["data"][50010]={["coords"]={[1]={48.6,57.6,36,0,},},} --Alterac Cipher
     pfDB["objects"]["data"][50011]={} --Dark Iron Artifact
     pfDB["objects"]["data"][1000000]={["coords"]={[1]={44.3,26.2,141,0,},},} --Brannol's Sewing Kit
-    pfDB["objects"]["data"][113773]={["coords"]={[1]={54.6,51.3,139,900,},},} --Oversized Colored Egg
+    pfDB["objects"]["data"][113768]={} --Brightly Colored egg
+    pfDB["objects"]["data"][113769]={} --Brightly Colored egg
+    pfDB["objects"]["data"][113770]={} --Brightly Colored egg
+    pfDB["objects"]["data"][113771]={} --Brightly Colored egg
+    pfDB["objects"]["data"][113772]={["coords"]={[1]={21.2,72.8,12,180},[2]={24.3,93.8,12,180},[3]={25.6,71.9,12,180},[4]={26.7,95.3,12,180},[5]={27.9,78.8,12,180},[6]={28.0,81.0,12,180},[7]={28.2,70.1,12,180},[8]={30.3,74.8,12,180},[9]={31.2,65.1,12,180},[10]={33.9,82.3,12,180},[11]={35.2,83.9,12,180},[12]={41.8,52.2,12,180},[13]={41.8,65.5,12,180},[14]={42.5,58.7,12,180},[15]={46.4,47.0,12,180},[16]={43.8,66.0,12,180},[17]={44.2,65.9,12,180},[18]={48.2,87.1,12,180},[19]={71.2,76.5,12,180},[20]={79.4,68.2,12,180},[21]={81.5,80.5,12,180},[22]={83.0,63.0,12,180},[23]={84.9,64.9,12,180},[24]={91.2,81.6,12,180},[25]={65.2,62.9,12,180},[26]={61.3,53.8,12,180},[27]={60.9,49.8,12,180},[28]={74.8,47.2,12,180},[29]={74.2,56.0,12,180},[30]={71.8,48.8,12,180},[31]={74.4,51.4,12,180},[32]={74.5,51.9,12,180},[33]={84.7,49.7,12,180},[34]={76.8,42.5,12,180},[35]={68.1,39.5,12,180},[36]={66.0,38.4,12,180},[37]={78.4,67.1,12,180},[38]={67.8,83.3,12,180},[39]={64.7,80.1,12,180},[40]={61.1,81.4,12,180},[41]={52.9,81.8,12,180},[42]={35.8,55.5,141,180},},} --Brightly Colored Egg
+    pfDB["objects"]["data"][113773]={["coords"]={[1]={54.6,51.3,139,900,},[2]={47.2,19.5,85,180},},} --Oversized Colored Egg
     pfDB["objects"]["data"][180367]={["coords"]={[1]={41.8,69.5,33,900,},},} --Altar of Zanza
 --Quests
     pfDB["quests"]["data"][30000]={["end"]={["U"]={13698},},["lvl"]=39,["min"]=37,["obj"]={["U"]={20675},},["race"]=77,["start"]={["U"]={13698},},} --The Lingering Mother
@@ -75,9 +83,10 @@
     pfDB["quests"]["data"][10089]={["end"]={["U"]={14875},},["lvl"]=60,["min"]=55,["next"]=10090,["pre"]={10088},["start"]={["U"]={14903},},} --Broken Key - Part 2
     pfDB["quests"]["data"][10090]={["end"]={["U"]={14910},},["lvl"]=60,["min"]=55,["next"]=10091,["pre"]={10089},["obj"]={["I"]={12361,26178,26179,26180},},["start"]={["U"]={14875},},} --Broken Key - Part 3
     pfDB["quests"]["data"][10091]={["end"]={["U"]={14910},},["lvl"]=60,["min"]=55,["pre"]={10090},["obj"]={["I"]={26181,26182,26183,26184},},["start"]={["U"]={14910},},} --Broken Key - Part 4
-    pfDB["quests"]["data"][41006]={["end"]={["U"]={23061},},["lvl"]=17,["min"]=1,["obj"]={["I"]={7808,83012,},},["start"]={["U"]={23061},},} --Bags for Bouncing
-    pfDB["quests"]["data"][41007]={["end"]={["U"]={23061},},["lvl"]=17,["min"]=1,["pre"]={41006},["obj"]={["I"]={7808,83012,113773},},["start"]={["U"]={23061},},} --Better Bouncing Bags
-    pfDB["quests"]["data"][41008]={["end"]={["U"]={23061},},["lvl"]=17,["min"]=1,["pre"]={41007},["obj"]={["I"]={83012,},},["start"]={["U"]={23061},},} --Grab and Go
+    pfDB["quests"]["data"][41001]={["end"]={["U"]={23061},},["lvl"]=60,["min"]=51,["obj"]={["I"]={7808,83012,83013,83008},},["start"]={["I"]={83008},},} --Just One Bad Egg Actually...
+    pfDB["quests"]["data"][41006]={["end"]={["U"]={23061},},["lvl"]=25,["min"]=1,["obj"]={["I"]={7808,83012,},},["start"]={["U"]={23061},},} --Bags for Bouncing
+    pfDB["quests"]["data"][41007]={["end"]={["U"]={23061},},["lvl"]=45,["min"]=1,["pre"]={41006},["obj"]={["I"]={7808,83010,83012,83013},},["start"]={["U"]={23061},},} --Better Bouncing Bags
+    pfDB["quests"]["data"][41009]={["end"]={["U"]={23061},},["lvl"]=26,["min"]=1,["pre"]={41006},["obj"]={["I"]={8925,83012,},},["start"]={["U"]={23061},},} --Grab and Go
 --Meta
     --Chests
     pfDB["meta"]["chests"][-103821]=0 --Scarlet Strongbox
@@ -107,12 +116,24 @@
     pfDB["items"]["enUS"][26186]="Mojo Key"
     pfDB["items"]["enUS"][26188]="Karazhan Key"
     pfDB["items"]["enUS"][50001]="Rockhide Boar Meat"
-    pfDB["items"]["enUS"][50003]="Brannol\'s Sewing Kit (Ogre\'s Bum Bag!?)"
+    pfDB["items"]["enUS"][50003]="Brannol\'s Sewing Kit"
     pfDB["items"]["enUS"][50010]="Lost Arathor Manifest - Page 1"
     pfDB["items"]["enUS"][50011]="Lost Arathor Manifest - Page 2"
     pfDB["items"]["enUS"][50012]="Lost Arathor Manifest - Page 3"
     pfDB["items"]["enUS"][50014]="Alterac Cipher"
     pfDB["items"]["enUS"][50017]="Dark Iron Artifact"
+    pfDB["items"]["enUS"][83001]="Jade Egg"
+    pfDB["items"]["enUS"][83002]="Golden Egg"
+    pfDB["items"]["enUS"][83003]="Onyx Egg"
+    pfDB["items"]["enUS"][83004]="Ruby Egg"
+    pfDB["items"]["enUS"][83005]="Azure Egg"
+    pfDB["items"]["enUS"][83006]="Blue Mottled Egg"
+    pfDB["items"]["enUS"][83007]="Pink Speckled Egg"
+    pfDB["items"]["enUS"][83008]="Huevo Podrido"
+    pfDB["items"]["enUS"][83009]="Egg Pouch"
+    pfDB["items"]["enUS"][83010]="Egg Sack"
+    pfDB["items"]["enUS"][83012]="Spirit Bean"
+    pfDB["items"]["enUS"][83013]="Rune of Thumping"
     --Objects
     pfDB["objects"]["enUS"][50010]="Alterac Cipher"
     pfDB["objects"]["enUS"][50011]="Dark Iron Artifact"
@@ -126,10 +147,10 @@
         ["O"]="Find and defeat the spirit of Palkeote.",
         ["T"]="The Lingering Mother",
     }
-    pfDB["quests"]["enUS"][30001] = {
-    ["D"] = "Do you know the legend of Palkeote, the grey mother? She is the spirit of an ancient kodo who walked this land in the distant past, in the days even before the sundering. This land was green then, and she roamed it for many years with her mate and her children. One day, one of her sons fell ill with a sickness that would not leave him. He fell further behind the pack with each passing day, until he finally collapsed northwest of here, near a river that has now gone dry. Palkeote stayed with her son, but she could do nothing to stop his passing. She would not leave even then. Her herd moved on and the seasons passed around her, but still she remained, until she herself passed away beside him. Her watch did not end even then, and she remains as a mighty spirit. The Earthmother pities the suffering of all life, and she pities the suffering of mothers most of all. Palkeote\'s vigil has made her strong, but it is time for her to rest. Muster your allies and end her long watch, $C.",
-    ["O"] = "Find and defeat the spirit of Palkeote.",
-    ["T"] = "Palkeote",
+    pfDB["quests"]["enUS"][30001]={
+    ["D"]="Do you know the legend of Palkeote, the grey mother? She is the spirit of an ancient kodo who walked this land in the distant past, in the days even before the sundering. This land was green then, and she roamed it for many years with her mate and her children. One day, one of her sons fell ill with a sickness that would not leave him. He fell further behind the pack with each passing day, until he finally collapsed northwest of here, near a river that has now gone dry. Palkeote stayed with her son, but she could do nothing to stop his passing. She would not leave even then. Her herd moved on and the seasons passed around her, but still she remained, until she herself passed away beside him. Her watch did not end even then, and she remains as a mighty spirit. The Earthmother pities the suffering of all life, and she pities the suffering of mothers most of all. Palkeote\'s vigil has made her strong, but it is time for her to rest. Muster your allies and end her long watch, $C.",
+    ["O"]="Find and defeat the spirit of Palkeote.",
+    ["T"]="Palkeote",
     }
     --Kodo Hunt
     pfDB["quests"]["enUS"][30002]={
@@ -209,6 +230,12 @@
         ["O"]="Find and deliver Hakkari Troll Mojo, Sandfury Troll Mojo, Vilebranch Troll Mojo and Smolderthorn Troll Mojo to Exzhal at Yojamba Isle.",
         ["T"]="Broken Key",
     }
+    --Just One Bad Egg Actually...
+    pfDB["quests"]["enUS"][41001]={
+        ["D"]="$n - that son of a motherclucking Ogre... Malo corrupted one of my FONTS? No wonder I can't get my usual hopping energy back, we need to cleanse as many of these as we can!$B$BBring back a HOPPING MAD amount of my magical gifts from around Azeroth and with the combined essence we will cleanse this egg!$B$BHuh, how am I talking to you? You really have that much trouble keeping up?",
+        ["O"]="Gather 30 Chocolate Squares, 10 Spirit Beans and 5 Runes of Thumping to thump out the corruption of Malo.",
+        ["T"]="Just One Bad Egg Actually...",
+    }
     --Bags for Bouncing
     pfDB["quests"]["enUS"][41006]={
         ["D"]="Zzzzz... Oh! $n - You're back, or is this our first interaction in your perception? $b$bNevermind for now, surely you have noticed the changes in the land? The Fonts of my Power have once more arrived in this plane. If I have awoken there is nothing but a dreadful reason, it is best we get you stocked and hopped full of energy to combat this menace. So did you bring the chocolate? I have your bags, oh I had not asked you that yet? You should have figured it out by now anyways!",
@@ -222,7 +249,7 @@
         ["T"]="Better Bouncing Bags",
     }
     --Grab and Go
-    pfDB["quests"]["enUS"][41008]={
+    pfDB["quests"]["enUS"][41009]={
         ["D"]="Beans.... Spirit Beans... Cool beans... Coooooool Spirit Beans. Might be even cooler if they were portable though you know? Nothing fun about having to slow down to stop and chew some beans.%b%bWhaddaya say we try something out and see if it helps us go fast? I bet you it will!%b%bIf it makes you feel any better I already know exactly what will happen I just prefer to act surprised you know?",
         ["O"]="Bring a load of Spirit Beans to Thumm Parr!",
         ["T"]="Grab and Go",
@@ -231,6 +258,7 @@
     --Units
     pfDB["units"]["enUS"][16540]="Brother Pablo"
     pfDB["units"]["enUS"][20675]="Spirit of Palkeote"
+    pfDB["units"]["enUS"][22805]="El Pollo Malo"
     pfDB["units"]["enUS"][23061]="Thum Parr"
     pfDB["units"]["enUS"][25285]="Landro Longshot (Donation Shop)"
     pfDB["units"]["enUS"][30806]="Otto Steelpoulpel"
@@ -239,21 +267,41 @@
 --Reload database to register the new values
     pfDatabase.Reload()
 --Fetch addon version
-local frame = CreateFrame("FRAME")
+local frame=CreateFrame("FRAME")
 frame:RegisterEvent("ADDON_LOADED")
 function pfQuest_vplus_versioncheck()
     if arg1 == "pfQuest-vanillaplus" then        
-        pfQuest_vplus = pfQuest_vplus or {}
+        pfQuest_vplus=pfQuest_vplus or {}
         if not pfQuest_vplus then
-            pfQuest_vplus["prev_version"] = 0
+            pfQuest_vplus["prev_version"]=0
         end
-        pfQuest_vplus_currentversion = tonumber(GetAddOnMetadata("pfQuest-vanillaplus", "Version"))
+        pfQuest_vplus_currentversion=tonumber(GetAddOnMetadata("pfQuest-vanillaplus", "Version"))
         if pfQuest_vplus["prev_version"] and pfQuest_vplus["prev_version"] < pfQuest_vplus_currentversion then
             DEFAULT_CHAT_FRAME:AddMessage("|cff33ffccpf|cffffffffQuest|cffaaaaaa \[Vanilla Plus\]|cffffffff: New version discovered. It is recommended to reset the quest cache from the pfQuest settings.")
-            pfQuest_vplus["prev_version"] = pfQuest_vplus_currentversion
+            pfQuest_vplus["prev_version"]=pfQuest_vplus_currentversion
         else
-            pfQuest_vplus["prev_version"] = pfQuest_vplus_currentversion
+            pfQuest_vplus["prev_version"]=pfQuest_vplus_currentversion
         end
     end
 end
 frame:SetScript("OnEvent",pfQuest_vplus_versioncheck)
+
+--New item coordinates string
+function pfNewCoords(respawn, objectsunits, ID)
+    --Where objectsunits = "objects" or "units", ID = unit/object ID, respawn = object respawn timer in seconds
+    SetMapToCurrentZone()
+    local zone = GetMapInfo()
+    local time = time or 0
+    local ID = ID or 1
+    local iter = "X"
+    if objectsunits and ID then
+        iter = getn(pfDB[objectsunits]["data"][ID]["coords"])+1
+    end
+    for k, v in pfDB["zones"]["enUS"] do 
+      if strfind(string.lower(v), string.lower(zone)) then 
+        zone = k
+      end
+    end
+    x,y=GetPlayerMapPosition("player")
+    DEFAULT_CHAT_FRAME:AddMessage("["..iter.."]={"..string.format("%.1f", x*100)..",".. string.format("%.1f",y*100)..","..zone..","..respawn.."},")
+  end
