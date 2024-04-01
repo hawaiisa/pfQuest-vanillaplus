@@ -21,6 +21,8 @@
         pfDB["units"]["data"][14921]={["coords"]={[1]={40,67.9,33,1800},},["lvl"]="63",["rnk"]="1",} --Rin'wosho the Trader
         pfDB["units"]["data"][15070]={["coords"]={[1]={40.3,69.1,33,1800},},["lvl"]="60",["rnk"]="1",} --Vinchaxa
         pfDB["units"]["data"][15080]={["coords"]={[1]={41.2,69.4,33,1800},[2]={41.2,69.6,33,1800},},["lvl"]="60",["rnk"]="1",} --Servant of the Hand
+    --Easter Event
+        pfDB["units"]["data"][23061]={["coords"]={[1]={51.8,29.9,12,1800},[2]={74.0,30.3,85,1800},[3]={59.3,23.2,14,1800},},["lvl"]="17",["FAC"]="AH",} --Thum Parr
     --Donation Shop
         pfDB["units"]["data"][25285]={["coords"]={[1]={54.0,59,7,1519,1800},[2]={55.0,48.5,1637,1800},},["lvl"]="30",["fac"]="AH",} -- Landro Longshot (Donation Shop)
 --Items
@@ -34,18 +36,28 @@
     pfDB["items"]["data"][26183]={["U"]={[10802]=100,},} --Vilebranch Troll Mojo
     pfDB["items"]["data"][26184]={["U"]={[9237]=100,},} --Smolderthorn Troll Mojo
     pfDB["items"]["data"][26185]={} --Distilled Mojo Flask
+    pfDB["items"]["data"][26186]={} --Mojo Key
+    pfDB["items"]["data"][26188]={} --Karazhan Key
     pfDB["items"]["data"][50001]={["U"]={[524]=80,},} --Rockhide Boar Meat
     pfDB["items"]["data"][50003]={["O"]={[1000000]=100,},} --Brannol's Sewing Kit (Ogre's Bum Bag!?)
     pfDB["items"]["data"][50010]={["U"]={[2552]=100,},} --Lost Arathor Manifest - Page 1
     pfDB["items"]["data"][50011]={["U"]={[2562]=100,},} --Lost Arathor Manifest - Page 2
     pfDB["items"]["data"][50012]={["U"]={[2242]=100,},} --Lost Arathor Manifest - Page 3
     pfDB["items"]["data"][50014]={["O"]={[50010]=100,},} --Alterac Cipher
+    pfDB["items"]["data"][50017]={["O"]={[50011]=100,},} --Dark Iron Artifact
+    pfDB["items"]["data"][83012]={["O"]={[113768] = 33.33,[113769] = 33.33,[113770] = 33.33,[113771] = 33.33,[113772] = 33.33,[113773] = 33.33,},} --Spirit Bean
+    pfDB["items"]["data"][83013]={["O"]={[113773] = 33.33,},} --Spirit Bean
 
 --Objects
     pfDB["objects"]["data"][103664]={["coords"]={[1]={48.5,95.6,17,0,},},} --Rituals of Power
     pfDB["objects"]["data"][103821]={["coords"]={[1]={83.7,77.9,139,900,},[2]={88.5,86.3,139,900},[3]={41.9,14.3,28,900},[4]={80.7,85.7,139,900},},} --Scarlet Strongbox
+    pfDB["objects"]["data"][181598]={["coords"]={[1]={51.2,14.2,1377,180},[2]={61.2,16.2,1377,180},[3]={34.3,21.2,1377,180},[4]={40.0,22.5,1377,180},[5]={26.1,28.6,1377,180},[6]={36.0,29.9,1377,180},[7]={64.6,30.3,1377,180},[8]={72.7,35.6,1377,180},[9]={36.0,38.5,1377,180},[10]={20.7,39.7,1377,180},[11]={49.6,41.3,1377,180},[12]={20.1,45.2,1377,180},[13]={49.2,44.8,1377,180},[14]={55.1,47.5,1377,180},[15]={57.9,50.0,1377,180},[16]={50.4,50.5,1377,180},[17]={59.1,58.6,1377,180},[18]={42.2,62.1,1377,180},[19]={60.6,63.0,1377,180},[20]={31.4,65.8,1377,180},[21]={41.3,68.8,1377,180},[22]={63.8,70.9,1377,180},[23]={65.5,73.6,1377,180},[24]={36.8,77.4,1377,180},[25]={19.0,80.1,1377,180},[26]={20.9,81.1,1377,180},[27]={26.5,81.4,1377,180},[28]={38.8,80.8,1377,180},[29]={48.7,84.7,1377,180},[30]={64.9,85.9,1377,180},[31]={48.8,89.8,1377,180},},} --Silithyst Geyser
+    pfDB["objects"]["data"][181598]={["coords"]={[1]={51.2,14.2,1377,180},[2]={61.2,16.2,1377,180},[3]={34.3,21.2,1377,180},[4]={40.0,22.5,1377,180},[5]={26.1,28.6,1377,180},[6]={36.0,29.9,1377,180},[7]={64.6,30.3,1377,180},[8]={72.7,35.6,1377,180},[9]={36.0,38.5,1377,180},[10]={20.7,39.7,1377,180},[11]={49.6,41.3,1377,180},[12]={20.1,45.2,1377,180},[13]={49.2,44.8,1377,180},[14]={55.1,47.5,1377,180},[15]={57.9,50.0,1377,180},[16]={50.4,50.5,1377,180},[17]={59.1,58.6,1377,180},[18]={42.2,62.1,1377,180},[19]={60.6,63.0,1377,180},[20]={31.4,65.8,1377,180},[21]={41.3,68.8,1377,180},[22]={63.8,70.9,1377,180},[23]={65.5,73.6,1377,180},[24]={36.8,77.4,1377,180},[25]={19.0,80.1,1377,180},[26]={20.9,81.1,1377,180},[27]={26.5,81.4,1377,180},[28]={38.8,80.8,1377,180},[29]={48.7,84.7,1377,180},[30]={64.9,85.9,1377,180},[31]={48.8,89.8,1377,180},},} --Silithyst Geyser
     pfDB["objects"]["data"][50010]={["coords"]={[1]={48.6,57.6,36,0,},},} --Alterac Cipher
+    pfDB["objects"]["data"][50011]={} --Dark Iron Artifact
+    pfDB["objects"]["data"][50011]={} --Dark Iron Artifact
     pfDB["objects"]["data"][1000000]={["coords"]={[1]={44.3,26.2,141,0,},},} --Brannol's Sewing Kit
+    pfDB["objects"]["data"][113773]={["coords"]={[1]={54.6,51.3,139,900,},},} --Oversized Colored Egg
     pfDB["objects"]["data"][180367]={["coords"]={[1]={41.8,69.5,33,900,},},} --Altar of Zanza
 --Quests
     pfDB["quests"]["data"][30000]={["end"]={["U"]={13698},},["lvl"]=39,["min"]=37,["obj"]={["U"]={20675},},["race"]=77,["start"]={["U"]={13698},},} --The Lingering Mother
@@ -63,18 +75,70 @@
     pfDB["quests"]["data"][10089]={["end"]={["U"]={14875},},["lvl"]=60,["min"]=55,["next"]=10090,["pre"]={10088},["start"]={["U"]={14903},},} --Broken Key - Part 2
     pfDB["quests"]["data"][10090]={["end"]={["U"]={14910},},["lvl"]=60,["min"]=55,["next"]=10091,["pre"]={10089},["obj"]={["I"]={12361,26178,26179,26180},},["start"]={["U"]={14875},},} --Broken Key - Part 3
     pfDB["quests"]["data"][10091]={["end"]={["U"]={14910},},["lvl"]=60,["min"]=55,["pre"]={10090},["obj"]={["I"]={26181,26182,26183,26184},},["start"]={["U"]={14910},},} --Broken Key - Part 4
+    pfDB["quests"]["data"][41006]={["end"]={["U"]={23061},},["lvl"]=17,["min"]=1,["obj"]={["I"]={7808,83012,},},["start"]={["U"]={23061},},} --Bags for Bouncing
+    pfDB["quests"]["data"][41007]={["end"]={["U"]={23061},},["lvl"]=17,["min"]=1,["pre"]={41006},["obj"]={["I"]={7808,83012,113773},},["start"]={["U"]={23061},},} --Better Bouncing Bags
+    pfDB["quests"]["data"][41008]={["end"]={["U"]={23061},},["lvl"]=17,["min"]=1,["pre"]={41007},["obj"]={["I"]={83012,},},["start"]={["U"]={23061},},} --Grab and Go
 --Meta
     --Chests
     pfDB["meta"]["chests"][-103821]=0 --Scarlet Strongbox
     --Taxis
-    pfDB["meta"]["flight"][10583]=nil --Removed Gryfe (Un'Goro)
-    pfDB["meta"]["flight"][13177]=nil --Removed Vahgruk (Burning Steppes)
-    pfDB["meta"]["flight"][14242]=nil --Removed Sulhasa (Silithus)
+    pfDB["meta"]["flight"][2299]=nil --Removed Borgus Stoutarm (Alliance - Burning Steppes)
+    pfDB["meta"]["flight"][2941]=nil --Removed Lanie Reed (Alliance - Searing Gorge)
+    pfDB["meta"]["flight"][3305]=nil --Removed Grisha (Horde - Searing Gorge)
+    pfDB["meta"]["flight"][10583]=nil --Removed Gryfe (Neutral - Un'Goro)
+    pfDB["meta"]["flight"][10897]=nil --Removed Sindrayl (Alliance - Moonglade)
+    pfDB["meta"]["flight"][12596]=nil --Removed Bibilfaz Featherwhistle (Alliance - Western Plaguelands)
+    pfDB["meta"]["flight"][12740]=nil --Removed Faustron (Horde - Moonglade)
+    pfDB["meta"]["flight"][13177]=nil --Removed Vahgruk (Horde - Burning Steppes)
+    pfDB["meta"]["flight"][14242]=nil --Removed Sulhasa (Horde - Silithus)
     pfDB["meta"]["flight"][30806]="H" --Otto Steelpoulpel
 --Locale enUS
+    --Items
+    pfDB["items"]["enUS"][7146]="Scarlet Key"
+    pfDB["items"]["enUS"][26177]="Broken Key"
+    pfDB["items"]["enUS"][26178]="Mossflayer Troll Mojo"
+    pfDB["items"]["enUS"][26179]="Deadwind Ogre Mojo"
+    pfDB["items"]["enUS"][26180]="Winterax Troll Mojo"
+    pfDB["items"]["enUS"][26181]="Hakkari Troll Mojo"
+    pfDB["items"]["enUS"][26182]="Sandfury Troll Mojo"
+    pfDB["items"]["enUS"][26183]="Vilebranch Troll Mojo"
+    pfDB["items"]["enUS"][26184]="Smolderthorn Troll Mojo"
+    pfDB["items"]["enUS"][26185]="Distilled Mojo Flask"
+    pfDB["items"]["enUS"][26186]="Mojo Key"
+    pfDB["items"]["enUS"][26188]="Karazhan Key"
+    pfDB["items"]["enUS"][50001]="Rockhide Boar Meat"
+    pfDB["items"]["enUS"][50003]="Brannol\'s Sewing Kit (Ogre\'s Bum Bag!?)"
+    pfDB["items"]["enUS"][50010]="Lost Arathor Manifest - Page 1"
+    pfDB["items"]["enUS"][50011]="Lost Arathor Manifest - Page 2"
+    pfDB["items"]["enUS"][50012]="Lost Arathor Manifest - Page 3"
+    pfDB["items"]["enUS"][50014]="Alterac Cipher"
+    pfDB["items"]["enUS"][50017]="Dark Iron Artifact"
+    --Items
+    pfDB["items"]["enUS"][7146]="Scarlet Key"
+    pfDB["items"]["enUS"][26177]="Broken Key"
+    pfDB["items"]["enUS"][26178]="Mossflayer Troll Mojo"
+    pfDB["items"]["enUS"][26179]="Deadwind Ogre Mojo"
+    pfDB["items"]["enUS"][26180]="Winterax Troll Mojo"
+    pfDB["items"]["enUS"][26181]="Hakkari Troll Mojo"
+    pfDB["items"]["enUS"][26182]="Sandfury Troll Mojo"
+    pfDB["items"]["enUS"][26183]="Vilebranch Troll Mojo"
+    pfDB["items"]["enUS"][26184]="Smolderthorn Troll Mojo"
+    pfDB["items"]["enUS"][26185]="Distilled Mojo Flask"
+    pfDB["items"]["enUS"][26186]="Mojo Key"
+    pfDB["items"]["enUS"][26188]="Karazhan Key"
+    pfDB["items"]["enUS"][50001]="Rockhide Boar Meat"
+    pfDB["items"]["enUS"][50003]="Brannol\'s Sewing Kit (Ogre\'s Bum Bag!?)"
+    pfDB["items"]["enUS"][50010]="Lost Arathor Manifest - Page 1"
+    pfDB["items"]["enUS"][50011]="Lost Arathor Manifest - Page 2"
+    pfDB["items"]["enUS"][50012]="Lost Arathor Manifest - Page 3"
+    pfDB["items"]["enUS"][50014]="Alterac Cipher"
+    pfDB["items"]["enUS"][50017]="Dark Iron Artifact"
     --Objects
     pfDB["objects"]["enUS"][50010]="Alterac Cipher"
+    pfDB["objects"]["enUS"][50011]="Dark Iron Artifact"
+    pfDB["objects"]["enUS"][50011]="Dark Iron Artifact"
     pfDB["objects"]["enUS"][103821]="Scarlet Strongbox"
+    pfDB["objects"]["enUS"][113773]="Oversized Colored Egg"
     pfDB["objects"]["enUS"][1000000]="Brannol\'s Sewing Kit"
     --Quests
     --The Lingering Mother
@@ -158,17 +222,37 @@
     pfDB["quests"]["enUS"][10090]={
         ["D"]="Yes, we need that key to be restored, and Zandalars will assist you and your friends with such a critical mission.$b$bThe heart of the key is a specific mojo. The bad news is we don\'t know the exact type of mojo required - you should find some. Start with the plagues Mossflayer tribe, dire Deadwind ogres, who dwell near the Karazhan and hidden Winterax from snowy Alterac. Take their mojo away and deliver it to Exzhal. He will test samples, and if we\'re lucky enough, he will find the correct one quickly.$b$bI almost forgot: grab Blue Sapphire to restore a key bow.",
         ["O"]="Find and deliver Blue Sapphire, Mossflayer Troll Mojo, Deadwind Ogre Mojo and Winterax Troll Mojo to Exzhal at Yojamba Isle",
-        ["T"]="Broken Key"
+        ["T"]="Broken Key",
     }
     --Broken Key - part 4
     pfDB["quests"]["enUS"][10091]={
         ["D"]="I need more mojo samples to test!$b$bThe next ones are harder to get, but we have no choice. Travel to Jintha\'Alor, Zul\'Farrak, Temple of Atal\'Hakkar and Blackrock Spire. Rip off Vilebranch Troll Mojo, Sandfury Troll Mojo, Hakkari Troll Mojo and Smolderthorn Troll Mojo.$b$bIf you survive, deliver the samples to me and pray to Zanza, mon! Otherwise, your friends should deliver the samples!$b$bDon\'t you have friends? Don\'t even try then!",
         ["O"]="Find and deliver Hakkari Troll Mojo, Sandfury Troll Mojo, Vilebranch Troll Mojo and Smolderthorn Troll Mojo to Exzhal at Yojamba Isle.",
-        ["T"]="Broken Key"
+        ["T"]="Broken Key",
     }
+    --Bags for Bouncing
+    pfDB["quests"]["enUS"][41006]={
+        ["D"]="Zzzzz... Oh! $n - You're back, or is this our first interaction in your perception? $b$bNevermind for now, surely you have noticed the changes in the land? The Fonts of my Power have once more arrived in this plane. If I have awoken there is nothing but a dreadful reason, it is best we get you stocked and hopped full of energy to combat this menace. So did you bring the chocolate? I have your bags, oh I had not asked you that yet? You should have figured it out by now anyways!",
+        ["O"]="Trade Thum Parr 20 Chocolate Squares and 5 Spirit Beans for an Egg Sack.",
+        ["T"]="Bags for Bouncing",
+    }
+    --Better Bouncing Bags
+    pfDB["quests"]["enUS"][41007]={
+        ["D"]="Zzz.. $n I can tell by the weight of your satchel that you stride with PURPOSE.%b%bIf it\'s a bigger bag you are after.... you are in luck. As we previously discussed countless times a bigger bag means more chocolate and that means MORE POWER. Bigger bags yes?",
+        ["O"]="Trade Thumm Parr 30 Chocolate Squares, 20 Spirit Beans, 3 Runes of Thumping and your Egg Sack for a bigger bag.",
+        ["T"]="Better Bouncing Bags",
+    }
+    --Grab and Go
+    pfDB["quests"]["enUS"][41008]={
+        ["D"]="Beans.... Spirit Beans... Cool beans... Coooooool Spirit Beans. Might be even cooler if they were portable though you know? Nothing fun about having to slow down to stop and chew some beans.%b%bWhaddaya say we try something out and see if it helps us go fast? I bet you it will!%b%bIf it makes you feel any better I already know exactly what will happen I just prefer to act surprised you know?",
+        ["O"]="Bring a load of Spirit Beans to Thumm Parr!",
+        ["T"]="Grab and Go",
+    }
+
     --Units
     pfDB["units"]["enUS"][16540]="Brother Pablo"
     pfDB["units"]["enUS"][20675]="Spirit of Palkeote"
+    pfDB["units"]["enUS"][23061]="Thum Parr"
     pfDB["units"]["enUS"][25285]="Landro Longshot (Donation Shop)"
     pfDB["units"]["enUS"][30806]="Otto Steelpoulpel"
     pfDB["units"]["enUS"][49249]="Winterax Envoy"
@@ -182,7 +266,6 @@ function pfQuest_vplus_versioncheck()
     if arg1 == "pfQuest-vanillaplus" then        
         pfQuest_vplus = pfQuest_vplus or {}
         if not pfQuest_vplus then
-            DEFAULT_CHAT_FRAME:AddMessage("No variable saved")
             pfQuest_vplus["prev_version"] = 0
         end
         pfQuest_vplus_currentversion = tonumber(GetAddOnMetadata("pfQuest-vanillaplus", "Version"))
