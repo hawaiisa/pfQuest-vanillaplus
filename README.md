@@ -20,5 +20,5 @@ wowfolder\
 4. Use the Reset Cache button in pfQuest settings to make sure it registers custom quests correctly.
 ## How can I contribute?
 If you find any quest items/givers/locations displayed by pfQuest in the wrong spot, or notice that a respawn timer is way off, give me a shout on Discord, submit an issue, or better still: Submit a pull request with the changes!
-Information I need to make corrections: Name of quest/unit/item/object out of place. Related quest if applicable. To get the correct coordinates, position yourself in the correct location and run the following macro. `/run SetMapToCurrentZone() x,y=GetPlayerMapPosition("player") DEFAULT_CHAT_FRAME:AddMessage(GetMapInfo()..": "..string.format("%.1f", x*100)..",".. string.format("%.1f",y*100))`. This will not give any coordinates when in instances, but in the world this will be of much help!
+Information I need to make corrections: Name of quest/unit/item/object out of place. Related quest if applicable. To get the correct coordinates, position yourself in the correct location and run the following macro: `/run pfNewCoords()`. This will not give any coordinates when in instances, but in the world this will be of much help!
 Feel free to contact me with any other questions or feedback as well.
