@@ -38,6 +38,8 @@
     pfDB["items"]["data"][26185]={} --Distilled Mojo Flask
     pfDB["items"]["data"][26186]={} --Mojo Key
     pfDB["items"]["data"][26188]={} --Karazhan Key
+    pfDB["items"]["data"][26186]={} --Mojo Key
+    pfDB["items"]["data"][26188]={} --Karazhan Key
     pfDB["items"]["data"][50001]={["U"]={[524]=80,},} --Rockhide Boar Meat
     pfDB["items"]["data"][50003]={["O"]={[1000000]=100,},} --Brannol's Sewing Kit (Ogre's Bum Bag!?)
     pfDB["items"]["data"][50010]={["U"]={[2552]=100,},} --Lost Arathor Manifest - Page 1
@@ -52,9 +54,7 @@
     pfDB["objects"]["data"][103664]={["coords"]={[1]={48.5,95.6,17,0,},},} --Rituals of Power
     pfDB["objects"]["data"][103821]={["coords"]={[1]={83.7,77.9,139,900,},[2]={88.5,86.3,139,900},[3]={41.9,14.3,28,900},[4]={80.7,85.7,139,900},},} --Scarlet Strongbox
     pfDB["objects"]["data"][181598]={["coords"]={[1]={51.2,14.2,1377,180},[2]={61.2,16.2,1377,180},[3]={34.3,21.2,1377,180},[4]={40.0,22.5,1377,180},[5]={26.1,28.6,1377,180},[6]={36.0,29.9,1377,180},[7]={64.6,30.3,1377,180},[8]={72.7,35.6,1377,180},[9]={36.0,38.5,1377,180},[10]={20.7,39.7,1377,180},[11]={49.6,41.3,1377,180},[12]={20.1,45.2,1377,180},[13]={49.2,44.8,1377,180},[14]={55.1,47.5,1377,180},[15]={57.9,50.0,1377,180},[16]={50.4,50.5,1377,180},[17]={59.1,58.6,1377,180},[18]={42.2,62.1,1377,180},[19]={60.6,63.0,1377,180},[20]={31.4,65.8,1377,180},[21]={41.3,68.8,1377,180},[22]={63.8,70.9,1377,180},[23]={65.5,73.6,1377,180},[24]={36.8,77.4,1377,180},[25]={19.0,80.1,1377,180},[26]={20.9,81.1,1377,180},[27]={26.5,81.4,1377,180},[28]={38.8,80.8,1377,180},[29]={48.7,84.7,1377,180},[30]={64.9,85.9,1377,180},[31]={48.8,89.8,1377,180},},} --Silithyst Geyser
-    pfDB["objects"]["data"][181598]={["coords"]={[1]={51.2,14.2,1377,180},[2]={61.2,16.2,1377,180},[3]={34.3,21.2,1377,180},[4]={40.0,22.5,1377,180},[5]={26.1,28.6,1377,180},[6]={36.0,29.9,1377,180},[7]={64.6,30.3,1377,180},[8]={72.7,35.6,1377,180},[9]={36.0,38.5,1377,180},[10]={20.7,39.7,1377,180},[11]={49.6,41.3,1377,180},[12]={20.1,45.2,1377,180},[13]={49.2,44.8,1377,180},[14]={55.1,47.5,1377,180},[15]={57.9,50.0,1377,180},[16]={50.4,50.5,1377,180},[17]={59.1,58.6,1377,180},[18]={42.2,62.1,1377,180},[19]={60.6,63.0,1377,180},[20]={31.4,65.8,1377,180},[21]={41.3,68.8,1377,180},[22]={63.8,70.9,1377,180},[23]={65.5,73.6,1377,180},[24]={36.8,77.4,1377,180},[25]={19.0,80.1,1377,180},[26]={20.9,81.1,1377,180},[27]={26.5,81.4,1377,180},[28]={38.8,80.8,1377,180},[29]={48.7,84.7,1377,180},[30]={64.9,85.9,1377,180},[31]={48.8,89.8,1377,180},},} --Silithyst Geyser
     pfDB["objects"]["data"][50010]={["coords"]={[1]={48.6,57.6,36,0,},},} --Alterac Cipher
-    pfDB["objects"]["data"][50011]={} --Dark Iron Artifact
     pfDB["objects"]["data"][50011]={} --Dark Iron Artifact
     pfDB["objects"]["data"][1000000]={["coords"]={[1]={44.3,26.2,141,0,},},} --Brannol's Sewing Kit
     pfDB["objects"]["data"][113773]={["coords"]={[1]={54.6,51.3,139,900,},},} --Oversized Colored Egg
@@ -113,29 +113,8 @@
     pfDB["items"]["enUS"][50012]="Lost Arathor Manifest - Page 3"
     pfDB["items"]["enUS"][50014]="Alterac Cipher"
     pfDB["items"]["enUS"][50017]="Dark Iron Artifact"
-    --Items
-    pfDB["items"]["enUS"][7146]="Scarlet Key"
-    pfDB["items"]["enUS"][26177]="Broken Key"
-    pfDB["items"]["enUS"][26178]="Mossflayer Troll Mojo"
-    pfDB["items"]["enUS"][26179]="Deadwind Ogre Mojo"
-    pfDB["items"]["enUS"][26180]="Winterax Troll Mojo"
-    pfDB["items"]["enUS"][26181]="Hakkari Troll Mojo"
-    pfDB["items"]["enUS"][26182]="Sandfury Troll Mojo"
-    pfDB["items"]["enUS"][26183]="Vilebranch Troll Mojo"
-    pfDB["items"]["enUS"][26184]="Smolderthorn Troll Mojo"
-    pfDB["items"]["enUS"][26185]="Distilled Mojo Flask"
-    pfDB["items"]["enUS"][26186]="Mojo Key"
-    pfDB["items"]["enUS"][26188]="Karazhan Key"
-    pfDB["items"]["enUS"][50001]="Rockhide Boar Meat"
-    pfDB["items"]["enUS"][50003]="Brannol\'s Sewing Kit (Ogre\'s Bum Bag!?)"
-    pfDB["items"]["enUS"][50010]="Lost Arathor Manifest - Page 1"
-    pfDB["items"]["enUS"][50011]="Lost Arathor Manifest - Page 2"
-    pfDB["items"]["enUS"][50012]="Lost Arathor Manifest - Page 3"
-    pfDB["items"]["enUS"][50014]="Alterac Cipher"
-    pfDB["items"]["enUS"][50017]="Dark Iron Artifact"
     --Objects
     pfDB["objects"]["enUS"][50010]="Alterac Cipher"
-    pfDB["objects"]["enUS"][50011]="Dark Iron Artifact"
     pfDB["objects"]["enUS"][50011]="Dark Iron Artifact"
     pfDB["objects"]["enUS"][103821]="Scarlet Strongbox"
     pfDB["objects"]["enUS"][113773]="Oversized Colored Egg"
