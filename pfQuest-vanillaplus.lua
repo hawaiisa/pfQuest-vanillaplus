@@ -45,6 +45,43 @@
     pfDB["items"]["data"][26188]={} --Karazhan Key
     pfDB["items"]["data"][26186]={} --Mojo Key
     pfDB["items"]["data"][26188]={} --Karazhan Key
+    pfDB["items"]["data"][26249]={["V"]={[11106]=0}} --Gladiator's Heavy Runecloth Bandage
+	pfDB["items"]["data"][26250]={["V"]={[11106]=0}} --M.E.D.S.
+	pfDB["items"]["data"][26254]={["V"]={[11106]=0}} --Bloody Rag
+	pfDB["items"]["data"][26255]={["V"]={[11106]=0}} --Sigil of Sturdiness: Bracer
+	pfDB["items"]["data"][26256]={["V"]={[11106]=0}} --Sigil of Sturdiness: Chest
+	pfDB["items"]["data"][26257]={["V"]={[11106]=0}} --Sigil of Awe: Shield
+	pfDB["items"]["data"][26258]={["V"]={[11106]=0}} --Sigil of Power: Gloves
+	pfDB["items"]["data"][26259]={["V"]={[11106]=0}} --Sigil of Power: Gloves
+	pfDB["items"]["data"][26260]={["V"]={[11106]=0}} --Sigil of Speed: Cloak
+	pfDB["items"]["data"][26261]={["V"]={[11106]=0}} --Sigil of Concentration: Helm
+	pfDB["items"]["data"][26246]={["V"]={[11106]=0}} --Insignia of the Gladiator
+	pfDB["items"]["data"][26251]={["V"]={[11106]=0}} --Gladiator's Daily Ration
+	pfDB["items"]["data"][26252]={["V"]={[11106]=0}} --Gladiator's Healing Draught
+	pfDB["items"]["data"][26253]={["V"]={[11106]=0}} --Gladiator's Mana Draught
+	pfDB["items"]["data"][26262]={["V"]={[11106]=0}} --Sigil of Sturdiness: Belt
+	pfDB["items"]["data"][26263]={["V"]={[11106]=0}} --Sigil of Awe: Helm
+	pfDB["items"]["data"][26264]={["V"]={[11106]=0}} --Sigil of Power: Bracer
+	pfDB["items"]["data"][26265]={["V"]={[11106]=0}} --Sigil of Power: Bracer
+	pfDB["items"]["data"][26266]={["V"]={[11106]=0}} --Sigil of Speed: Boots
+	pfDB["items"]["data"][26267]={["V"]={[11106]=0}} --Sigil of Concentration: Shoulders
+	pfDB["items"]["data"][26247]={["V"]={[11106]=0}} --Insignia of the Unfettered
+	pfDB["items"]["data"][26281]={["V"]={[11106]=0}} --Gladiator's Throwing Blades
+	pfDB["items"]["data"][26268]={["V"]={[11106]=0}} --Sigil of Sturdiness: Gloves
+	pfDB["items"]["data"][26269]={["V"]={[11106]=0}} --Sigil of Sturdiness: Gloves
+	pfDB["items"]["data"][26270]={["V"]={[11106]=0}} --Sigil of Sturdiness: Helm
+	pfDB["items"]["data"][26271]={["V"]={[11106]=0}} --Sigil of Awe: Legs
+	pfDB["items"]["data"][26272]={["V"]={[11106]=0}} --Sigil of Power: Chest
+	pfDB["items"]["data"][26273]={["V"]={[11106]=0}} --Sigil of Power: Chest
+	pfDB["items"]["data"][26274]={["V"]={[11106]=0}} --Sigil of Speed: Boots
+	pfDB["items"]["data"][26275]={["V"]={[11106]=0}} --Sigil of Concentration: Bracers
+	pfDB["items"]["data"][26248]={["V"]={[11106]=0}} --Insignia of the Unfettered Champion
+	pfDB["items"]["data"][26245]={["V"]={[11106]=0}} --Styleen’s Darling Shades
+	pfDB["items"]["data"][26276]={["V"]={[11106]=0}} --Tatooes of Awe
+	pfDB["items"]["data"][26277]={["V"]={[11106]=0}} --Tatooes of Sturdiness
+	pfDB["items"]["data"][26278]={["V"]={[11106]=0}} --Tatooes of Power
+	pfDB["items"]["data"][26279]={["V"]={[11106]=0}} --Tatooes of Speed
+	pfDB["items"]["data"][26280]={["V"]={[11106]=0}} --Tatooes of Concentration
     pfDB["items"]["data"][50001]={["U"]={[524]=80,},} --Rockhide Boar Meat
     pfDB["items"]["data"][50003]={["O"]={[1000000]=100,},} --Brannol's Sewing Kit
     pfDB["items"]["data"][50010]={["U"]={[2552]=100,},} --Lost Arathor Manifest - Page 1
@@ -120,6 +157,43 @@
     pfDB["items"]["enUS"][26185]="Distilled Mojo Flask"
     pfDB["items"]["enUS"][26186]="Mojo Key"
     pfDB["items"]["enUS"][26188]="Karazhan Key"
+    pfDB["items"]["enUS"][26249]="Gladiator\'s Heavy Runecloth Bandage"
+	pfDB["items"]["enUS"][26250]="M.E.D.S."
+	pfDB["items"]["enUS"][26254]="Bloody Rag"
+	pfDB["items"]["enUS"][26255]="Sigil of Sturdiness: Bracer"
+	pfDB["items"]["enUS"][26256]="Sigil of Sturdiness: Chest"
+	pfDB["items"]["enUS"][26257]="Sigil of Awe: Shield"
+	pfDB["items"]["enUS"][26258]="Sigil of Power: Gloves"
+	pfDB["items"]["enUS"][26259]="Sigil of Power: Gloves"
+	pfDB["items"]["enUS"][26260]="Sigil of Speed: Cloak"
+	pfDB["items"]["enUS"][26261]="Sigil of Concentration: Helm"
+	pfDB["items"]["enUS"][26246]="Insignia of the Gladiator"
+	pfDB["items"]["enUS"][26251]="Gladiator\'s Daily Ration"
+	pfDB["items"]["enUS"][26252]="Gladiator\'s Healing Draught"
+	pfDB["items"]["enUS"][26253]="Gladiator\'s Mana Draught"
+	pfDB["items"]["enUS"][26262]="Sigil of Sturdiness: Belt"
+	pfDB["items"]["enUS"][26263]="Sigil of Awe: Helm"
+	pfDB["items"]["enUS"][26264]="Sigil of Power: Bracer"
+	pfDB["items"]["enUS"][26265]="Sigil of Power: Bracer"
+	pfDB["items"]["enUS"][26266]="Sigil of Speed: Boots"
+	pfDB["items"]["enUS"][26267]="Sigil of Concentration: Shoulders"
+	pfDB["items"]["enUS"][26247]="Insignia of the Unfettered"
+	pfDB["items"]["enUS"][26281]="Gladiator\'s Throwing Blades"
+	pfDB["items"]["enUS"][26268]="Sigil of Sturdiness: Gloves"
+	pfDB["items"]["enUS"][26269]="Sigil of Sturdiness: Gloves"
+	pfDB["items"]["enUS"][26270]="Sigil of Sturdiness: Helm"
+	pfDB["items"]["enUS"][26271]="Sigil of Awe: Legs"
+	pfDB["items"]["enUS"][26272]="Sigil of Power: Chest"
+	pfDB["items"]["enUS"][26273]="Sigil of Power: Chest"
+	pfDB["items"]["enUS"][26274]="Sigil of Speed: Boots"
+	pfDB["items"]["enUS"][26275]="Sigil of Concentration: Bracers"
+	pfDB["items"]["enUS"][26248]="Insignia of the Unfettered Champion"
+	pfDB["items"]["enUS"][26245]="Styleen\’s Darling Shades"
+	pfDB["items"]["enUS"][26276]="Tatooes of Awe"
+	pfDB["items"]["enUS"][26277]="Tatooes of Sturdiness"
+	pfDB["items"]["enUS"][26278]="Tatooes of Power"
+	pfDB["items"]["enUS"][26279]="Tatooes of Speed"
+	pfDB["items"]["enUS"][26280]="Tatooes of Concentration"
     pfDB["items"]["enUS"][50001]="Rockhide Boar Meat"
     pfDB["items"]["enUS"][50003]="Brannol\'s Sewing Kit"
     pfDB["items"]["enUS"][50010]="Lost Arathor Manifest - Page 1"
@@ -139,6 +213,7 @@
     pfDB["items"]["enUS"][83010]="Egg Sack"
     pfDB["items"]["enUS"][83012]="Spirit Bean"
     pfDB["items"]["enUS"][83013]="Rune of Thumping"
+
     --Objects
     pfDB["objects"]["enUS"][50010]="Alterac Cipher"
     pfDB["objects"]["enUS"][50011]="Dark Iron Artifact"
