@@ -1,31 +1,35 @@
 --Units
     --Alterac Mountains
-        pfDB["units"]["data"][49249]={["coords"]={[1]={37.8,70,36,37800},[2]={49.7,60.4,36,37800},[3]={38.8,47.4,36,37800},[4]={61.9,40.5,36,37800},[5]={44.6,34.4,36,37800},},["lvl"]="60",} --Winterax Envoy
+    pfDB["units"]["data"][49249]={["coords"]={[1]={37.8,70,36,37800},[2]={49.7,60.4,36,37800},[3]={38.8,47.4,36,37800},[4]={61.9,40.5,36,37800},[5]={44.6,34.4,36,37800},},["lvl"]="60",} --Winterax Envoy
     --The Barrens
-        pfDB["units"]["data"][16540]={["coords"]={[1]={48.6,95.5,17,0},},["lvl"]="45",} --Brother Pablo
+    pfDB["units"]["data"][16540]={["coords"]={[1]={48.6,95.5,17,0},},["lvl"]="45",} --Brother Pablo
     --Desolace
-        pfDB["units"]["data"][20675]={["coords"]={[1]={48.9,66.2,405,300},},["lvl"]="39",} --Spirit of Palkeote
+    pfDB["units"]["data"][20675]={["coords"]={[1]={48.9,66.2,405,300},},["lvl"]="39",} --Spirit of Palkeote
     --Durotar
-        pfDB["units"]["data"][30806]={["coords"]={[1]={50.7,12.9,14,300},},["lvl"]="30",["fac"]="H",} --Otto Steelpoulpel
+    pfDB["units"]["data"][30806]={["coords"]={[1]={50.7,12.9,14,300},},["lvl"]="30",["fac"]="H",} --Otto Steelpoulpel
+    --Gadgetzan
+    pfDB["units"]["data"][10594]={["coords"]={[1]={52.1,27.4,440,1800},},["lvl"]="61",["rnk"]="1",["fac"]="AH",} --Solo
+    pfDB["units"]["data"][10850]={["coords"]={[1]={52.1,27.5,440,1800},},["lvl"]="61",["rnk"]="1",["fac"]="AH",} --Durdek the Northern
+    pfDB["units"]["data"][11106]={["coords"]={[1]={51.4,27.5,440,1800},},["lvl"]="62",["rnk"]="1",["fac"]="AH",} --Styleen Silvercart
     --Zul'Gurub
-        pfDB["units"]["data"][11383]={["coords"]={[1]={50.7,16.7,33,37800},[2]={50.7,18.4,33,37800},[3]={51.4,16.7,33,37800},[4]={51.4,18.4,33,37800},[5]={46.8,16.1,33,37800},[6]={48.2,15.5,33,37800}},["lvl"]="60",["rnk"]="1",} --High Priestess Hai'Watna
+    pfDB["units"]["data"][11383]={["coords"]={[1]={50.7,16.7,33,37800},[2]={50.7,18.4,33,37800},[3]={51.4,16.7,33,37800},[4]={51.4,18.4,33,37800},[5]={46.8,16.1,33,37800},[6]={48.2,15.5,33,37800}},["lvl"]="60",["rnk"]="1",} --High Priestess Hai'Watna
     --Yojamba Isle
-        pfDB["units"]["data"][14875]={["coords"]={[1]={40.1,70.2,33,1800},},["lvl"]="60",["rnk"]="1",} --Molthor
-        pfDB["units"]["data"][14902]={["coords"]={[1]={40,72.4,33,1800},},["lvl"]="60",["rnk"]="1",} --Jin'rokh the Breaker
-        pfDB["units"]["data"][14903]={["coords"]={[1]={39.8,67.8,33,1800},},["lvl"]="60",["rnk"]="1",} --Al'tabim the All-Seeing
-        pfDB["units"]["data"][14904]={["coords"]={[1]={39.8,67.9,33,1800},},["lvl"]="60",["rnk"]="1",} --Maywiki of Zuldazar
-        pfDB["units"]["data"][14905]={["coords"]={[1]={41,71.6,33,1800},},["lvl"]="60",["rnk"]="1",} --Falthir the Sightless
-        pfDB["units"]["data"][14910]={["coords"]={[1]={40.2,68.9,33,60},},["lvl"]="60",["rnk"]="1",} --Exzhal
-        pfDB["units"]["data"][14911]={["coords"]={[1]={40.1,69.2,33,60},},["lvl"]="60",["rnk"]="1",} --Zandalar Enforcer
-        pfDB["units"]["data"][14912]={["coords"]={[1]={40.1,69.1,33,60},},["lvl"]="60",["rnk"]="1",} --Captured Hakkari Zealot
-        pfDB["units"]["data"][14921]={["coords"]={[1]={40,67.9,33,1800},},["lvl"]="63",["rnk"]="1",} --Rin'wosho the Trader
-        pfDB["units"]["data"][15070]={["coords"]={[1]={40.3,69.1,33,1800},},["lvl"]="60",["rnk"]="1",} --Vinchaxa
-        pfDB["units"]["data"][15080]={["coords"]={[1]={41.2,69.4,33,1800},[2]={41.2,69.6,33,1800},},["lvl"]="60",["rnk"]="1",} --Servant of the Hand
+    pfDB["units"]["data"][14875]={["coords"]={[1]={40.1,70.2,33,1800},},["lvl"]="60",["rnk"]="1",} --Molthor
+    pfDB["units"]["data"][14902]={["coords"]={[1]={40,72.4,33,1800},},["lvl"]="60",["rnk"]="1",} --Jin'rokh the Breaker
+    pfDB["units"]["data"][14903]={["coords"]={[1]={39.8,67.8,33,1800},},["lvl"]="60",["rnk"]="1",} --Al'tabim the All-Seeing
+    pfDB["units"]["data"][14904]={["coords"]={[1]={39.8,67.9,33,1800},},["lvl"]="60",["rnk"]="1",} --Maywiki of Zuldazar
+    pfDB["units"]["data"][14905]={["coords"]={[1]={41,71.6,33,1800},},["lvl"]="60",["rnk"]="1",} --Falthir the Sightless
+    pfDB["units"]["data"][14910]={["coords"]={[1]={40.2,68.9,33,60},},["lvl"]="60",["rnk"]="1",} --Exzhal
+    pfDB["units"]["data"][14911]={["coords"]={[1]={40.1,69.2,33,60},},["lvl"]="60",["rnk"]="1",} --Zandalar Enforcer
+    pfDB["units"]["data"][14912]={["coords"]={[1]={40.1,69.1,33,60},},["lvl"]="60",["rnk"]="1",} --Captured Hakkari Zealot
+    pfDB["units"]["data"][14921]={["coords"]={[1]={40,67.9,33,1800},},["lvl"]="63",["rnk"]="1",} --Rin'wosho the Trader
+    pfDB["units"]["data"][15070]={["coords"]={[1]={40.3,69.1,33,1800},},["lvl"]="60",["rnk"]="1",} --Vinchaxa
+    pfDB["units"]["data"][15080]={["coords"]={[1]={41.2,69.4,33,1800},[2]={41.2,69.6,33,1800},},["lvl"]="60",["rnk"]="1",} --Servant of the Hand
     --Easter Event
-        pfDB["units"]["data"][22805]={["coords"]={[1]={47.5,19.6,85,180},},["lvl"]="17"}--"El Pollo Malo"
-        pfDB["units"]["data"][23061]={["coords"]={[1]={51.8,29.9,12,1800},[2]={74.6,30.9,85,1800},[3]={59.3,23.2,14,1800},},["lvl"]="17",["FAC"]="AH",} --Thum Parr
+    pfDB["units"]["data"][22805]={["coords"]={[1]={47.5,19.6,85,180},},["lvl"]="17"}--"El Pollo Malo"
+    pfDB["units"]["data"][23061]={["coords"]={[1]={51.8,29.9,12,1800},[2]={74.6,30.9,85,1800},[3]={59.3,23.2,14,1800},},["lvl"]="17",["fac"]="AH",} --Thum Parr
     --Donation Shop
-        pfDB["units"]["data"][25285]={["coords"]={[1]={54.0,59,7,1519,1800},[2]={55.0,48.5,1637,1800},},["lvl"]="30",["fac"]="AH",} -- Landro Longshot (Donation Shop)
+    pfDB["units"]["data"][25285]={["coords"]={[1]={54.0,59,7,1519,1800},[2]={55.0,48.5,1637,1800},},["lvl"]="30",["fac"]="AH",} -- Landro Longshot (Donation Shop)
 --Items
     pfDB["items"]["data"][7146]={["O"]={},["O"]={[103821]=100,}} --Scarlet Key
     pfDB["items"]["data"][26177]={["U"]={[11383]=100},} --Broken Key
@@ -258,6 +262,9 @@
     }
 
     --Units
+    pfDB["units"]["enUS"][10594]="Solo"
+    pfDB["units"]["enUS"][10850]="Durdek the Northern"
+    pfDB["units"]["enUS"][11106]="Styleen Silvercart"
     pfDB["units"]["enUS"][16540]="Brother Pablo"
     pfDB["units"]["enUS"][20675]="Spirit of Palkeote"
     pfDB["units"]["enUS"][22805]="El Pollo Malo"
