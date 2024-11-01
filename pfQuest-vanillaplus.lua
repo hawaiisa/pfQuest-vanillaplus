@@ -376,6 +376,7 @@ function pfNewCoords(respawn, objectsunits, ID)
     SetMapToCurrentZone()
     local zone = GetMapInfo()
     local time = time or 0
+    local respawn = respawn or 300
     local ID = ID or 1
     local iter = "X"
     if objectsunits and ID then
