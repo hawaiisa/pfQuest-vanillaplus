@@ -13,6 +13,8 @@
     pfDB["units"]["data"][11106]={["coords"]={[1]={51.4,27.5,440,1800},},["lvl"]="62",["rnk"]="1",["fac"]="AH",} --Styleen Silvercart
     --Zul'Gurub
     pfDB["units"]["data"][11383]={["coords"]={[1]={50.7,16.7,33,37800},[2]={50.7,18.4,33,37800},[3]={51.4,16.7,33,37800},[4]={51.4,18.4,33,37800},[5]={46.8,16.1,33,37800},[6]={48.2,15.5,33,37800}},["lvl"]="60",["rnk"]="1",} --High Priestess Hai'Watna
+    --Un'Goro Crater
+    pfDB["units"]["data"][7527]={["coords"]={[1]={25.2,68.9,490,300}},["lvl"]="62",["rnk"]="1",["fac"]="AH",} --Rog'Ron
     --Yojamba Isle
     pfDB["units"]["data"][14875]={["coords"]={[1]={40.1,70.2,33,1800},},["lvl"]="60",["rnk"]="1",} --Molthor
     pfDB["units"]["data"][14902]={["coords"]={[1]={40,72.4,33,1800},},["lvl"]="60",["rnk"]="1",} --Jin'rokh the Breaker
@@ -30,7 +32,8 @@
     pfDB["units"]["data"][23061]={["coords"]={[1]={51.8,29.9,12,1800},[2]={74.6,30.9,85,1800},[3]={59.3,23.2,14,1800},},["lvl"]="17",["fac"]="AH",} --Thum Parr
     --Donation Shop
     pfDB["units"]["data"][25285]={["coords"]={[1]={54.0,59,7,1519,1800},[2]={55.0,48.5,1637,1800},},["lvl"]="30",["fac"]="AH",} -- Landro Longshot (Donation Shop)
---Items
+--Items 
+--"V" = Vendor, "U" = Drops from unit, "O" = Looted from object
     pfDB["items"]["data"][7146]={["O"]={},["O"]={[103821]=100,}} --Scarlet Key
     pfDB["items"]["data"][26177]={["U"]={[11383]=100},} --Broken Key
     pfDB["items"]["data"][26178]={["U"]={[8560]=30,[8561]=30,[8562]=30,},} --Mossflayer Troll Mojo
@@ -93,6 +96,7 @@
     pfDB["items"]["data"][83010]={} --Egg Sack
     pfDB["items"]["data"][83012]={["O"]={[113768]=15,[113769]=15,[113770]=15,[113771]=15,[113772]=15,[113773]=30,},} --Spirit Bean
     pfDB["items"]["data"][83013]={["O"]={[113768]=3,[113769]=3,[113770]=3,[113771]=3,[113772]=3,[113773]=5,}, ["U"]={[22805]=33.33}} --Rune of Thumping
+    pfDB["items"]["data"][83166]={["U"]={[6498]=100,[6499]=100,[6500]=100,[6584]=100}} --Pulsating Devilsaur Hide
 
 --Objects
     pfDB["objects"]["data"][103664]={["coords"]={[1]={48.5,95.6,17,0,},},} --Rituals of Power
@@ -129,6 +133,7 @@
     pfDB["quests"]["data"][41006]={["end"]={["U"]={23061},},["lvl"]=25,["min"]=1,["obj"]={["I"]={7808,83012,},},["start"]={["U"]={23061},},} --Bags for Bouncing
     pfDB["quests"]["data"][41007]={["end"]={["U"]={23061},},["lvl"]=45,["min"]=1,["pre"]={41006},["obj"]={["I"]={7808,83010,83012,83013},},["start"]={["U"]={23061},},} --Better Bouncing Bags
     pfDB["quests"]["data"][41009]={["end"]={["U"]={23061},},["lvl"]=26,["min"]=1,["pre"]={41006},["obj"]={["I"]={8925,83012,},},["start"]={["U"]={23061},},} --Grab and Go
+    pfDB["quests"]["data"][41206]={["end"]={["U"]={7527},},["lvl"]=60,["min"]=55,["obj"]={["I"]={4096,8146,19933,83166,},},["start"]={["U"]={7527},},} --Jungle Mastery
 --Meta
     --Chests
     pfDB["meta"]["chests"][-103821]=0 --Scarlet Strongbox
@@ -213,6 +218,7 @@
     pfDB["items"]["enUS"][83010]="Egg Sack"
     pfDB["items"]["enUS"][83012]="Spirit Bean"
     pfDB["items"]["enUS"][83013]="Rune of Thumping"
+    pfDB["items"]["enUS"][83166]="Pulsating Devilsaur Hide"
 
     --Objects
     pfDB["objects"]["enUS"][50010]="Alterac Cipher"
@@ -335,8 +341,14 @@
         ["O"]="Bring a load of Spirit Beans to Thumm Parr!",
         ["T"]="Grab and Go",
     }
-
+    --Jungle Mastery
+    pfDB["quests"]["enUS"][41206]={
+        ["D"]="I am not from these lands, but I have sought mastery over this crater. $B$BLiving in this jungle is no simple task. Knowing how to utilize the available resources to sustain and equip yourself is more important than all else. Prove your strength! $B$BI share my knowledge with those worthy. $B$BIf brave enough to hunt the Devilsaur, skin them quickly after a kill, their hide may attempt to continue regenerating. At a point they become unusable however and lose the necessary regenerative effect. $B$BBring me enough of those properly cut hides and the requisite materials from around the crater and I shall make you a cloak worthy of the King.",
+        ["O"]="Obtain the necessary materials for Rog'Ron.",
+        ["T"]="Jungle Mastery",
+    }
     --Units
+    pfDB["units"]["enUS"][7527]="Rog\'Ron"
     pfDB["units"]["enUS"][10594]="Solo"
     pfDB["units"]["enUS"][10850]="Durdek the Northern"
     pfDB["units"]["enUS"][11106]="Styleen Silvercart"
